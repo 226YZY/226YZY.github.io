@@ -1,0 +1,46 @@
+
+body {
+    text-align: center;
+}
+
+table {
+    font-size: 36px;
+    font-weight: bold;
+    background-color: darkgray;
+    margin: 0px auto; /*上下外边距为0，左右根据宽度自适应,即水平居中*/
+    margin-top: 70px;
+    border-radius: 10px; /* 设置表格边框圆角 */
+}
+td {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(29, 180, 250);
+}
+#top1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#newgame{
+    background-color: rgb(241, 176, 56);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 800;
+}
+#mark{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(33, 132, 245);
+}
+
+#gameover{
+    font-size: 36px;
+    font-weight: bold;
+    display:none;
+    color: crimson;
+    margin: 0 auto;
+}

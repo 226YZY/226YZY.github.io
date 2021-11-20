@@ -1,0 +1,111 @@
+/* html和body标签的高度
+
+1.一个div块级元素没有主动为其设置宽度和高度，浏览器会为其分配可使用的最大宽度(比如全屏宽度)，但是不负责分配高度，块级元素的高度是由子元素堆砌撑起来的。那么，html和body标签的高度也都是由子级元素堆砌撑起来的，如上图，没子元素时高度为0，设置了border后只显示一条直线。
+
+还有，元素高度百分比需要向上遍历父标签要找到一个定值高度才能起作用，如果中途有个height为auto或是没有设置height属性，则高度百分比不起作用，此时的情况是父元素高度依赖子元素堆砌撑高，而子元素依赖父元素的定高起作用，互相依赖，却都无法依赖，死循环了。
+
+当一个div的父元素是body，body的父元素是html，通过height:100%层层向上，找到顶级获取定高。
+
+所以出现了html和body同时设置height:100%，如果只设置body也是不行的，因为他的父元素html是没有高度的
+
+设置html的height:100%，它参照的是window，也就是浏览器可视区窗口的高度，这个高度一直存在，所以html和body也就有高度了。 */
+
+
+html,
+body {
+    background-image: url("背景/搜索界面背景.jpg");
+    background-repeat: no-repeat;
+    /*背景图片不重复*/
+    background-size: 100% 100%;
+    /*达到窗口的百分百比例*/
+    background-attachment: fixed;
+    /*图片固定，随着页面滚动而移动*/
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+@media only screen and (max-width: 601px) {
+
+}
+
+iframe {
+    float: right;
+    text-decoration: none
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 15px;
+}
+
+ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.title {
+    width: 400px;
+    height: 225px;
+    ;
+    margin: auto;
+}
+
+.title div {
+    float: left;
+    border: 1px solid blue;
+}
+
+.nothing {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    float: left
+}
+
+.report {
+    width: 100%;
+    height: 50px;
+    font-family: "华文新魏"
+}
+
+/* 搜索框css */
+
+.box {
+    width: 100%;
+    height: 200px auto;
+    text-align: center;
+}
+
+.search1 {
+    width: 35%;
+    height: 40px;
+    line-height: 36px;
+    background: rgb(255, 255, 255, 0.8);
+    border: 1px solid;
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+    margin-left: 80px;
+}
+
+.search2 {
+    width: 104px;
+    height: 45px;
+    font-size: 16px;
+    background: rgb(16, 107, 226);
+    color: aliceblue;
+    line-height: 40px;
+    border: none;
+}
+
+.search2:hover {
+    background: rgb(42, 42, 231);
+}
