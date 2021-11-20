@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2021-11-01T15:56:47.117Z</updated>
+  <updated>2021-11-20T18:27:06.666Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对于Git出现git@e.coding.net:(publickey).问题的解决</title>
+    <link href="https://www.226yzy.com/2021/112156639.html"/>
+    <id>https://www.226yzy.com/2021/112156639.html</id>
+    <published>2021-11-20T18:09:46.000Z</published>
+    <updated>2021-11-20T18:27:06.666Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;对于Git出现-103-x69-116-x40-101-x2e-99-x6f-x64-105-110-x67-46-x6e-101-116-Permission-denied-publickey-问题的解决&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="https://www.226yzy.com/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="https://www.226yzy.com/tags/Git/"/>
+    
+    <category term="Coding" scheme="https://www.226yzy.com/tags/Coding/"/>
+    
+    <category term="解决" scheme="https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>YZY的MATLAB笔记</title>
@@ -126,9 +155,9 @@
     <category term="常用网站汇总" scheme="https://www.226yzy.com/categories/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/"/>
     
     
-    <category term="常用网站" scheme="https://www.226yzy.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
-    
     <category term="汇总" scheme="https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/"/>
+    
+    <category term="常用网站" scheme="https://www.226yzy.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
