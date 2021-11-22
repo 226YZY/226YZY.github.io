@@ -221,13 +221,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/Hello-World/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/Git/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
@@ -243,6 +236,13 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/Hello-World/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -293,14 +293,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/hexo/</loc>
+    <loc>https://www.226yzy.com/categories/Git/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/Git/</loc>
+    <loc>https://www.226yzy.com/categories/hexo/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
