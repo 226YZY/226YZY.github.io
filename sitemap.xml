@@ -193,7 +193,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/Hello-World/</loc>
+    <loc>https://www.226yzy.com/tags/MATLAB/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/%E6%8B%9F%E5%90%88%E5%9C%86/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -207,21 +214,7 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/MATLAB/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/%E6%8B%9F%E5%90%88%E5%9C%86/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -243,6 +236,13 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/Hello-World/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -286,13 +286,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/hexo/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/categories/MATLAB/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
@@ -301,6 +294,13 @@
   
   <url>
     <loc>https://www.226yzy.com/categories/Git/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/categories/hexo/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
