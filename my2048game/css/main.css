@@ -1,17 +1,17 @@
 *{
     text-decoration: none;
 }
-
 body {
     text-align: center;
+    background-color: #E0FFFF;
 }
 
 table {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     background-color: darkgray;
     margin: 0px auto; /*上下外边距为0，左右根据宽度自适应,即水平居中*/
-    margin-top: 70px;
+    margin-top: 20px;
     border-radius: 10px; /* 设置表格边框圆角 */
 }
 td {
@@ -20,7 +20,7 @@ td {
     border-radius: 10px;
     background-color: rgb(29, 180, 250);
 }
-#top1{
+#theMark{
     font-size: 36px;
     font-weight: bold;
 }
@@ -33,6 +33,7 @@ td {
     color: aliceblue;
     font-size: large;
     font-weight: 800;
+    margin-top: 20px;
 }
 #mark{
     font-size: 36px;
