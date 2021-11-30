@@ -25,6 +25,7 @@ function main() {
     tdcolor();
     mark.innerHTML=0;
     document.getElementById("gameover").style.display="none";
+    dealTouchEvent()
 }
 
 //因为Math.random() 返回 0（包括） 至 1（不包括） 之间的随机数，随机的数不一定是整数。
@@ -287,6 +288,9 @@ function isover(){
     console.log(f+"    isgameover");
 }
 
+function dealTouchEvent() {
+    EventUtil.listenTouchDirection(document, true, Up, Right, Down, Left);
+}
 
 //测试
 
