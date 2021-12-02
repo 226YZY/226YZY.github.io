@@ -2,13 +2,16 @@
     text-decoration: none;
 }
 body {
+    width: auto;
+    height: auto;
     text-align: center;
     background-color: #E0FFFF;
-    overflow-x:hidden;
+    overflow-x:hidden;   
 }
 
+
 table {
-    min-width: 350px;
+    min-width: 340px;
     font-size: 30px;
     font-weight: bold;
     background-color: darkgray;
@@ -17,8 +20,8 @@ table {
     border-radius: 10px; /* 设置表格边框圆角 */
 }
 td {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 10px;
     background-color: rgb(29, 180, 250);
 }
@@ -57,7 +60,6 @@ td {
 }
 
 #my{
-    width: 375px;
     padding-left: 5%;
     text-align: left;
 }
@@ -77,11 +79,10 @@ td {
 
 #my a{
     color: rgb(26, 164, 245);
-    font-size:larger;
-    font-weight: 600;
+    font-size:17px;
+    font-weight: 700;
     margin: 0 auto;
 }
-
 
 /* 滚动条 */
 ::-webkit-scrollbar-thumb {
@@ -99,4 +100,5 @@ td {
     width: 8px;
     height: 15px;
 }
+
 
