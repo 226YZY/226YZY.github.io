@@ -288,30 +288,5 @@ function isover(){
     console.log(f+"    isgameover");
 }
 
-function dealTouchEvent() {
-    EventUtil.listenTouchDirection(document, true, Up, Right, Down, Left);
-}
 
-//测试
-
-{/* 
-    
-    <tbody>
-    <tr><td id="1">2</td><td id="2">2</td><td id="3">4</td><td id="4"></td></tr>
-    <tr><td id="5">2</td><td id="6">2</td><td id="7">4</td><td id="8">2</td></tr>
-    <tr><td id="9">2</td><td id="10">4</td><td id="11">2</td><td id="12">2</td></tr>
-    <tr><td id="13">2</td><td id="14">4</td><td id="15">2</td><td id="16"></td></tr></tbody>
-
-
-
-    <tbody>
-    <tr><td id="1">2</td><td id="2">2</td><td id="3">4</td><td id="4">4</td></tr>
-    <tr><td id="5">2</td><td id="6">2</td><td id="7">4</td><td id="8">2</td></tr>
-    <tr><td id="9">2</td><td id="10">4</td><td id="11">2</td><td id="12"></td></tr>
-    <tr><td id="13">2</td><td id="14">4</td><td id="15">2</td><td id="16"></td></tr></tbody>
-
-
-
-
-*/}
 
