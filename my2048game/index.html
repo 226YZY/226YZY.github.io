@@ -29,12 +29,18 @@
   
 </body>
 <script src="js/main2048.js"></script>
-<script src="js/EventUtil.js"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/226yzy/live2d-widget/autoload.js"></script>
+<script type="text/javascript">
+  var OriginTitile=document.title,st;
+  document.addEventListener("visibilitychange",function(){
+      document.hidden?(document.title="ヽ(●-`Д´-)ノ别跑稍等",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ干得漂亮，成功了！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+  })
+</script>
+
 <!-- 百度统计 -->
 <script>
   var _hmt = _hmt || [];
@@ -45,4 +51,5 @@
     s.parentNode.insertBefore(hm, s);
   })();
   </script>
+
 </html>
