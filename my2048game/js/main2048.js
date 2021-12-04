@@ -25,7 +25,8 @@ function main() {
     tdcolor();
     mark.innerHTML=0;
     document.getElementById("gameover").style.display="none";
-    dealTouchEvent()
+    document.getElementById("gameover").innerHTML="";
+    youwin=2048;
 }
 
 //因为Math.random() 返回 0（包括） 至 1（不包括） 之间的随机数，随机的数不一定是整数。
@@ -64,11 +65,7 @@ function Up() {
           tempflag[z]=true;  
           z++;                
       }
-      console.log("--------------\n--------------\n初始\n"+i+"\n");
-      console.log(tempmap);
       tempmap=changetd(tempmap,tempflag,tempmap.length,0);  
-      console.log("--------------\n更新后");
-      console.log(tempmap);
       z=0;
       for(var j=i+(mapx-1)*mapy;j>=i;j-=mapy){ 
         var thetd=document.getElementById(j);
@@ -101,11 +98,7 @@ function Down() {
             tempflag[z]=true;  
             z++;                
         }
-        console.log("--------------\n--------------\n初始\n"+i+"\n");
-        console.log(tempmap);
         tempmap=changetd(tempmap,tempflag,tempmap.length,0);  
-        console.log("--------------\n更新后");
-        console.log(tempmap);
         z=0;
         for(var j=i;j<=i+(mapx-1)*mapy;j+=mapy){ 
           var thetd=document.getElementById(j);
@@ -137,11 +130,7 @@ function Left() {
             tempflag[z]=true;  
             z++;                
         }
-        console.log("--------------\n--------------\n初始\n"+i+"\n");
-        console.log(tempmap);
         tempmap=changetd(tempmap,tempflag,tempmap.length,0);  
-        console.log("--------------\n更新后");
-        console.log(tempmap);
         z=0;
         for(var j=i;j>=i-mapy+1;j--){ 
           var thetd=document.getElementById(j);
@@ -175,11 +164,7 @@ function Right() {
             tempflag[z]=true;  
             z++;                
         }
-        console.log("--------------\n--------------\n初始\n"+i+"\n");
-        console.log(tempmap);
         tempmap=changetd(tempmap,tempflag,tempmap.length,0);  
-        console.log("--------------\n更新后");
-        console.log(tempmap);
         z=0;
         for(var j=i;j<i+mapy;j++){ 
           var thetd=document.getElementById(j);
@@ -243,8 +228,8 @@ function changetd(tempmap,tempflag,k,u) {
 
 function tdcolor(){
     var tdcolors={
-        "": "#fef4f2",
-         "2": "#eee3da",
+        "": "#cdc1b4",
+         "2": "#eee4da",
             "4": "#ede0c8",
             "8": "#f2b179",
             "16": "#f59563",
@@ -261,31 +246,39 @@ function tdcolor(){
     for(var i = 1; i <= mapx*mapy; i++){
         var thetd=document.getElementById(i);
         thetd.style.backgroundColor=tdcolors[thetd.innerHTML];
+        if(thetd.innerHTML==2||thetd.innerHTML==4){
+            thetd.style.color="#776e65";
+        }
+        else{
+            thetd.style.color="#f8f5f1";
+        }
     }
 }
 
-function isover(){
-    var f=0;
-    for(var i=1;i<=mapx*mapy;i++){
-        var td=document.getElementById(i);    
-        if(td.innerHTML==""){
-            break;
+function isover() {
+    var f = 0;
+    for (var i = 1; i <= mapx * mapy; i++) {
+        var td = document.getElementById(i);
+        if(td.innerHTML >= youwin){
+            document.getElementById("gameover").innerHTML="恭喜你达到了 "+td.innerHTML;
+            document.getElementById("gameover").style.display = "block";
+            youwin=parseInt(td.innerHTML);
         }
-        else if(i<=(mapx-1)*mapy&&td.innerHTML==document.getElementById(i+mapy).innerHTML){
-            break;
-        }
-        else if(i%mapy!=0&&td.innerHTML==document.getElementById(i+1).innerHTML){
-            break;
-        }
-        else {
+        if (td.innerHTML == "") {
+            //空值跳过
+        } else if (i <= (mapx - 1) * mapy && td.innerHTML == document.getElementById(i + mapy).innerHTML) {
+            //判断该格子下方的数是否与之相同
+        } else if (i % mapy != 0 && td.innerHTML == document.getElementById(i + 1).innerHTML) {
+            //判断该格子右边的数是否与之相同
+        } else {
             f++;
         }
     }
-    if(f==mapx*mapy){
-        document.getElementById("gameover").style.display="block";
-        overflag=false;  
+    if (f == mapx * mapy) {
+        document.getElementById("gameover").innerHTML+="<br>GAME OVER"
+        document.getElementById("gameover").style.display = "block";
+        overflag = false;
     }
-    console.log(f+"    isgameover");
 }
 
 
