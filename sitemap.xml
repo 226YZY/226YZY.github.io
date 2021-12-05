@@ -207,13 +207,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</loc>
-    <lastmod>2021-12-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/MATLAB/</loc>
     <lastmod>2021-12-05</lastmod>
     <changefreq>daily</changefreq>
@@ -221,14 +214,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/</loc>
+    <loc>https://www.226yzy.com/tags/%E6%8B%9F%E5%90%88%E5%9C%86/</loc>
     <lastmod>2021-12-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E6%8B%9F%E5%90%88%E5%9C%86/</loc>
+    <loc>https://www.226yzy.com/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</loc>
     <lastmod>2021-12-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -257,6 +250,13 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2021-12-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/</loc>
     <lastmod>2021-12-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
