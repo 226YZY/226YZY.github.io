@@ -199,10 +199,3 @@ i:hover {
   cursor: url('../coursor/Comix_White_Link.cur'), auto;
 }
 
-
-/*飞鱼*/
-@media only screen and (max-width: 767px) {
-  #sidebar_search_box input[type=text] {
-    width: calc(100% - 24px)
-  }
-}

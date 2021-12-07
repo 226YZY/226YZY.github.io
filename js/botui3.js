@@ -425,14 +425,14 @@
 
 //////////////////////////////////
 
-var botui = new BotUI("kelecnbot");
+var botui = new BotUI("hello-world");
 botui.message.bot({
     delay: 200,
     content: "Hi, there👋"
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 kelecn"
+        content: "我是星空下的YZY"
     })
 }).then(function() {
     return botui.message.bot({
@@ -458,7 +458,7 @@ botui.message.bot({
     if (res.value == "gg") {
         return botui.message.bot({
             delay: 1500,
-            content: "![告辞](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1901389031,3540709863&fm=26&gp=0.jpg)"
+            content: "w(ﾟДﾟ)w 不要走！再看看嘛！"
         })
     }
 });
@@ -466,41 +466,46 @@ botui.message.bot({
 var other = function() {
     botui.message.bot({
         delay: 1500,
-        content: "😘"
+        content: "😄"
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主修的电子信息科学与技术专业，是个即将毕业的大四狗"
+            content: "我来自浙江温州，现在杭州"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "略懂HTML/CSS/JavaScript/Java，专攻C/C++/Python"
+            content: "目前还是一个菜鸟"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主要工作方向：嵌入式、物联网、嵌入式"
+            content: "略懂HTML/CSS/JavaScript/Java/C++/MySQL"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "喜欢折腾，热爱折腾，目前正在计算机一道上探索中"
+            content: "喜欢折腾，热爱折腾，正在计算机的道路上探索中"
         })
     }).then(function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 kelecn 呢？ 🤔",
+                text: "为什么叫 星空下的YZY 呢？ 🤔",
                 value: "next"
             }]
         })
-    }).then(function(res) {
+    }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "因为很喜欢《刺客伍六七》里可乐这个角色，于是我就沿用了下来，嗯！"
+            content: "这个嘛，好久之前就瞎用上了"
         })
     }).then(function() {
+      return botui.action.bot({
+          delay: 1500,
+          content: "估计是喜欢星空和对未来的期待吧🤣"
+      })
+  }).then(function() {
         return botui.action.button({
             delay: 1500,
             action: [{
@@ -511,12 +516,12 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "emmmmm，可乐_(:з」∠)_，至于cn嘛，中国国家域名2333"
+            content: "226代表我生日，至于yzy嘛，显而易见是我名字的缩写"
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "那么，仔细看看我的博客吧？ ^_^"
+            content: "那么，仔细看看我的博客吧 ^_^"
         })
     });
 }
