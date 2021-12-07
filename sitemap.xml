@@ -263,13 +263,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/Markdown/</loc>
-    <lastmod>2021-12-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2021-12-07</lastmod>
     <changefreq>daily</changefreq>
@@ -285,6 +278,13 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%94%B6%E5%BD%95%E5%85%A5%E5%8F%A3/</loc>
+    <lastmod>2021-12-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/Markdown/</loc>
     <lastmod>2021-12-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -349,14 +349,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/Markdown/</loc>
+    <loc>https://www.226yzy.com/categories/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</loc>
     <lastmod>2021-12-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</loc>
+    <loc>https://www.226yzy.com/categories/Markdown/</loc>
     <lastmod>2021-12-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
