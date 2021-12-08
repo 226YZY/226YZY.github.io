@@ -197,6 +197,7 @@ function keyboardEvents() {
     }
     
     tdcolor();
+    if(overflag)
     isover();
 }
 
