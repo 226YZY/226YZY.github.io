@@ -319,6 +319,54 @@
                 document.getElementById("info").innerHTML = "修改前值为: " + oldValue + "，修改后值为: " + newValue;
             })
         </script>
+
+
+
+        <br>
+        <br>
+        ===================================
+        ===================================
+        <br>
+        <h2>更多</h2>
+        <div id="app-10">
+            <input type="text" placeholder="请输入0-100的数字" v-bind:style="style" v-model="x">
+            <input type="checkbox" @click="ifclick()">
+        </div>
+        <script>
+            new Vue({
+                el:"#app-10",
+                data:{
+                    style: "color: black",
+                    x: "",
+                    flag: 0
+                },
+                methods:{
+                    ifclick:function(){
+                        this.flag^=1;
+                        if(this.flag){
+                            this.style="color: blue"
+                        }
+                        else{
+                            this.style="color: pink"
+                        }
+                    }
+                },
+                watch:{
+                    x:function(val){
+                        this.x=val;
+                        if(this.x<60){
+                            this.style="color: red"
+                            console.log(this.style);
+                        }
+                        else{
+                            this.style="color: black"
+                            console.log(this.style);
+                        }
+                        console.log(this.style);
+                    }
+                }
+            })
+        </script>
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
