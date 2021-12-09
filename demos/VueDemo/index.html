@@ -38,6 +38,11 @@
         <script src="https://unpkg.com/vue/dist/vue.js"></script>
         <h1>Vue练习Demo</h1>
         <br>
+        <br>
+        ===================================
+        ===================================
+        <h2>基础部分，<a href="https://226yzy.com/2021/120860549.html">原文链接</a></h2>
+        <br>
         ===================================
         <br>
         <h2>示例:入门-Hello World</h2>
@@ -214,7 +219,7 @@
         <h2>示例:v-bind</h2>
         <div id="app-6">
             <a v-bind:href="url">我的博客首页链接</a>
-            <p v-bind:style="style">我是蓝控，这是蓝色的！</p>
+            <p v-bind:style="style">我是蓝控，这是蓝色的!</p>
         </div>
 
         <script>
@@ -326,40 +331,230 @@
         <br>
         ===================================
         ===================================
+        <h2>组件部分，<a href="">原文链接</a></h2>
         <br>
-        <h2>更多</h2>
+        ===================================
+        <br>
+        <h2>示例:基本示例</h2>
+        <div id="app0">
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+        </div>
+
+        <script>
+            // 全局注册
+            Vue.component('hallo-world', {
+                //内容
+                template: '<button>Hello World</button>'
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0'
+            })
+        </script>
+
+        ===================================
+        <br>
+        <h2>示例:基本示例-函数</h2>
+        <div id="app0-1">
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+        </div>
+
+        <script>
+            // 全局注册
+            Vue.component('hallo-world', {
+                template: '<button @click="x++">你点击了这个 {{x}} 次</button>',
+                data: function () {
+                    return {
+                        x: 0
+                    }
+                }
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0-1'
+            })
+        </script>
+
+        ===================================
+        <br>
+        <h2>示例:template内换行</h2>
+
+        <div id="app0-1-0">
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+        </div>
+
+        <script>
+            // 全局注册
+            Vue.component('hallo-world', {
+                template: '<button @click="x++">\
+                        你点击了这个 {{x}} 次\
+    </button>',
+                data: function () {
+                    return {
+                        x: 0
+                    }
+                }
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0-1-0'
+            })
+        </script>
+        ===================================
+        <br>
+        <h2>示例:组件间数据相互影响</h2>
+        <div id="app0-1-1">
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+        </div>
+
+        <script>
+            var t = {
+                x: 0
+            }
+            // 全局注册
+            Vue.component('hallo-world', {
+                template: '<button @click="x++">你点击了这个 {{x}} 次</button>',
+                data: function () {
+                    return t
+                }
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0-1-1',
+            })
+        </script>
+
+        ===================================
+        <br>
+        <h2>示例:全局组件</h2>
+
+        <div id="app0-1-2">
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+            <hallo-world></hallo-world>
+        </div>
+
+        <script>
+            // 全局注册
+            Vue.component('hallo-world', {
+                template: '<button @click="x++">你点击了这个 {{x}} 次</button>',
+                data: function () {
+                    return {
+                        x: 0
+                    }
+                }
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0-1-2'
+            })
+        </script>
+
+
+        ===================================
+        <br>
+        <h2>示例:局部组件</h2>
+        <div id="app0-2">
+            <runoob></runoob>
+        </div>
+
+        <script>
+            var Child = {
+                template: '<h1>自定义组件!</h1>'
+            }
+
+            // 创建根实例
+            new Vue({
+                el: '#app0-2',
+                components: {
+                    // <runoob> 将只在父模板可用
+                    'runoob': Child
+                }
+            })
+        </script>
+
+        ===================================
+        <br>
+        <h2>示例:props</h2>
+        <div id="app0-3">
+            <child message="hello!"></child>
+        </div>
+
+        <script>
+            // 注册
+            Vue.component('child', {
+                // 声明 props
+                props: ['message'],
+                // 同样也可以在 vm 实例中像 "this.message" 这样使用
+                template: '<span>{{ message }}</span>'
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0-3'
+            })
+        </script>
+        ===================================
+        <br>
+        <h2>示例:prop的大小写</h2>
+        <div id="app0-3-1">
+            <blog-post post-title="hello!"></blog-post>
+        </div>
+
+        <script>
+            // 全局注册
+            Vue.component('blog-post', {
+                // 在 JavaScript 中是 camelCase 的
+                props: ['postTitle'],
+                template: '<h3>{{ postTitle }}</h3>'
+            })
+            // 创建根实例
+            new Vue({
+                el: '#app0-3-1'
+            })
+        </script>
+
+        ===================================
+        ===================================
+        <br>
+        <h2>更多练习</h2>
         <div id="app-10">
             <input type="text" placeholder="请输入0-100的数字" v-bind:style="style" v-model="x">
             <input type="checkbox" @click="ifclick()">
         </div>
         <script>
             new Vue({
-                el:"#app-10",
-                data:{
+                el: "#app-10",
+                data: {
                     style: "color: black",
                     x: "",
                     flag: 0
                 },
-                methods:{
-                    ifclick:function(){
-                        this.flag^=1;
-                        if(this.flag){
-                            this.style="color: blue"
-                        }
-                        else{
-                            this.style="color: pink"
+                methods: {
+                    ifclick: function () {
+                        this.flag ^= 1;
+                        if (this.flag) {
+                            this.style = "color: blue"
+                        } else {
+                            this.style = "color: pink"
                         }
                     }
                 },
-                watch:{
-                    x:function(val){
-                        this.x=val;
-                        if(this.x<60){
-                            this.style="color: red"
+                watch: {
+                    x: function (val) {
+                        this.x = val;
+                        if (this.x < 60) {
+                            this.style = "color: red"
                             console.log(this.style);
-                        }
-                        else{
-                            this.style="color: black"
+                        } else {
+                            this.style = "color: black"
                             console.log(this.style);
                         }
                         console.log(this.style);
