@@ -266,7 +266,7 @@
     <link href="https://www.226yzy.com/2021/071326519.html"/>
     <id>https://www.226yzy.com/2021/071326519.html</id>
     <published>2021-07-13T14:49:51.600Z</published>
-    <updated>2021-12-11T03:28:13.981Z</updated>
+    <updated>2021-12-11T03:33:19.360Z</updated>
     
     
       
@@ -284,13 +284,11 @@
     <category term="matery主题" scheme="https://www.226yzy.com/categories/Hexo/matery%E4%B8%BB%E9%A2%98/"/>
     
     
-    <category term="Hexo" scheme="https://www.226yzy.com/tags/Hexo/"/>
+    <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
     
-    <category term="blog" scheme="https://www.226yzy.com/tags/blog/"/>
+    <category term="matery主题" scheme="https://www.226yzy.com/tags/matery%E4%B8%BB%E9%A2%98/"/>
     
     <category term="记录整理" scheme="https://www.226yzy.com/tags/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
-    
-    <category term="matery" scheme="https://www.226yzy.com/tags/matery/"/>
     
   </entry>
   
@@ -299,7 +297,7 @@
     <link href="https://www.226yzy.com/2021/071133926.html"/>
     <id>https://www.226yzy.com/2021/071133926.html</id>
     <published>2021-07-11T00:34:40.868Z</published>
-    <updated>2021-12-11T03:28:21.084Z</updated>
+    <updated>2021-12-11T03:33:25.017Z</updated>
     
     
       
@@ -317,11 +315,9 @@
     <category term="matery主题" scheme="https://www.226yzy.com/categories/Hexo/matery%E4%B8%BB%E9%A2%98/"/>
     
     
-    <category term="Hexo" scheme="https://www.226yzy.com/tags/Hexo/"/>
+    <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
     
     <category term="matery主题" scheme="https://www.226yzy.com/tags/matery%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="blog" scheme="https://www.226yzy.com/tags/blog/"/>
     
     <category term="记录整理" scheme="https://www.226yzy.com/tags/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
     
@@ -348,11 +344,11 @@
     <category term="Markdown" scheme="https://www.226yzy.com/categories/Markdown/"/>
     
     
+    <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
+    
     <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="Hello World" scheme="https://www.226yzy.com/tags/Hello-World/"/>
-    
-    <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
     
     <category term="Markdown" scheme="https://www.226yzy.com/tags/Markdown/"/>
     
@@ -379,9 +375,9 @@
     <category term="Hexo" scheme="https://www.226yzy.com/categories/Hexo/"/>
     
     
-    <category term="Hello World" scheme="https://www.226yzy.com/tags/Hello-World/"/>
-    
     <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
+    
+    <category term="Hello World" scheme="https://www.226yzy.com/tags/Hello-World/"/>
     
   </entry>
   

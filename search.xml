@@ -260,13 +260,11 @@
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> hexo </tag>
             
-            <tag> blog </tag>
+            <tag> matery主题 </tag>
             
             <tag> 记录整理 </tag>
-            
-            <tag> matery </tag>
             
         </tags>
       
@@ -293,11 +291,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> hexo </tag>
             
             <tag> matery主题 </tag>
-            
-            <tag> blog </tag>
             
             <tag> 记录整理 </tag>
             
@@ -324,11 +320,11 @@
       
         <tags>
             
+            <tag> hexo </tag>
+            
             <tag> 学习笔记 </tag>
             
             <tag> Hello World </tag>
-            
-            <tag> hexo </tag>
             
             <tag> Markdown </tag>
             
@@ -355,9 +351,9 @@
       
         <tags>
             
-            <tag> Hello World </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> Hello World </tag>
             
         </tags>
       

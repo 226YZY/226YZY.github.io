@@ -1,20 +1,7 @@
 @font-face {
-  font-family: 'DIYFY';
-  src: url('/fonts/FZSJ-FYTJW.TTF');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'DIYTBPY';
-  src: url('/fonts/FZZJ-TBPYTJW.TTF');
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'DIYJH';
   src: url('/fonts/FZZJ-JHTJW.TTF');
   font-display: swap;
-
 }
 
 /*https://akilar.oschina.io/posts/eb030e5a/*/
