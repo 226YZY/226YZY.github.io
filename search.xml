@@ -22,11 +22,11 @@
             
             <tag> Vue </tag>
             
+            <tag> 组件 </tag>
+            
             <tag> 基础 </tag>
             
             <tag> 学习笔记 </tag>
-            
-            <tag> 组件 </tag>
             
         </tags>
       
@@ -138,11 +138,11 @@
       
         <tags>
             
-            <tag> 学习笔记 </tag>
-            
             <tag> MATLAB </tag>
             
             <tag> 数学建模 </tag>
+            
+            <tag> 学习笔记 </tag>
             
             <tag> 汇总 </tag>
             
@@ -251,20 +251,22 @@
       
       <categories>
           
-          <category> Blog </category>
+          <category> Hexo </category>
+          
+          <category> matery主题 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexo </tag>
-            
-            <tag> matery </tag>
+            <tag> Hexo </tag>
             
             <tag> blog </tag>
             
             <tag> 记录整理 </tag>
+            
+            <tag> matery </tag>
             
         </tags>
       
@@ -282,16 +284,18 @@
       
       <categories>
           
-          <category> Blog </category>
+          <category> Hexo </category>
+          
+          <category> matery主题 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexo </tag>
+            <tag> Hexo </tag>
             
-            <tag> matery </tag>
+            <tag> matery主题 </tag>
             
             <tag> blog </tag>
             
@@ -320,11 +324,11 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> 学习笔记 </tag>
             
             <tag> Hello World </tag>
+            
+            <tag> hexo </tag>
             
             <tag> Markdown </tag>
             
@@ -344,16 +348,16 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> Hexo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> Hello World </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
