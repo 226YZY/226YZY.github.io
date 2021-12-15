@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2021-12-11T13:01:08.885Z</updated>
+  <updated>2021-12-15T09:16:15.163Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 软件UI界面基础</title>
+    <link href="https://www.226yzy.com/2021/12157757.html"/>
+    <id>https://www.226yzy.com/2021/12157757.html</id>
+    <published>2021-12-15T04:05:14.000Z</published>
+    <updated>2021-12-15T09:16:15.163Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本篇主要为Android 软件UI界面基础&lt;/p&gt;
+&lt;h1 id=&quot;常用控件&quot;&gt;&lt;a href=&quot;#常用控件&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Android" scheme="https://www.226yzy.com/categories/Android/"/>
+    
+    
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Android" scheme="https://www.226yzy.com/tags/Android/"/>
+    
+    <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>MySQL 触发器</title>
@@ -39,11 +69,11 @@
     <category term="触发器" scheme="https://www.226yzy.com/categories/MySQL/%E8%A7%A6%E5%8F%91%E5%99%A8/"/>
     
     
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="MySQL" scheme="https://www.226yzy.com/tags/MySQL/"/>
     
     <category term="触发器" scheme="https://www.226yzy.com/tags/%E8%A7%A6%E5%8F%91%E5%99%A8/"/>
+    
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -71,11 +101,11 @@
     <category term="组件" scheme="https://www.226yzy.com/categories/Vue/%E7%BB%84%E4%BB%B6/"/>
     
     
-    <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
     
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
     
     <category term="组件" scheme="https://www.226yzy.com/tags/%E7%BB%84%E4%BB%B6/"/>
     
@@ -103,11 +133,11 @@
     <category term="Vue" scheme="https://www.226yzy.com/categories/Vue/"/>
     
     
-    <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
     
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
     
   </entry>
   
