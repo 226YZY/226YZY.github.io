@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2021-12-15T09:16:15.163Z</updated>
+  <updated>2021-12-18T06:09:54.998Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo博客部署至服务器</title>
+    <link href="https://www.226yzy.com/2021/121818354.html"/>
+    <id>https://www.226yzy.com/2021/121818354.html</id>
+    <published>2021-12-18T06:05:24.945Z</published>
+    <updated>2021-12-18T06:09:54.998Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://www.226yzy.com/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.226yzy.com/tags/Hexo/"/>
+    
+    <category term="服务器" scheme="https://www.226yzy.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>Android 软件UI界面基础</title>
@@ -28,8 +55,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本篇主要为Android 软件UI界面基础&lt;/p&gt;
-&lt;h1 id=&quot;常用控件&quot;&gt;&lt;a href=&quot;#常用控件&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -38,11 +64,11 @@
     <category term="Android" scheme="https://www.226yzy.com/categories/Android/"/>
     
     
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="Android" scheme="https://www.226yzy.com/tags/Android/"/>
     
     <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -58,7 +84,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -69,11 +95,11 @@
     <category term="触发器" scheme="https://www.226yzy.com/categories/MySQL/%E8%A7%A6%E5%8F%91%E5%99%A8/"/>
     
     
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
     <category term="MySQL" scheme="https://www.226yzy.com/tags/MySQL/"/>
     
     <category term="触发器" scheme="https://www.226yzy.com/tags/%E8%A7%A6%E5%8F%91%E5%99%A8/"/>
-    
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -89,8 +115,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本篇将主要介绍Vue组件的相关内容，有些可能会较为简略&lt;/p&gt;
-&lt;p&gt;部分内容参考菜鸟教程&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -101,9 +126,9 @@
     <category term="组件" scheme="https://www.226yzy.com/categories/Vue/%E7%BB%84%E4%BB%B6/"/>
     
     
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
     
@@ -123,8 +148,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本篇将记录我的Vue的学习,有些可能会较为简略&lt;/p&gt;
-&lt;p&gt;部分内容参考菜鸟教程&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -133,9 +157,9 @@
     <category term="Vue" scheme="https://www.226yzy.com/categories/Vue/"/>
     
     
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
     
@@ -153,8 +177,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;code&gt;注：该篇记录暂未实现过渡动画以及移动端的上下左右操作&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;我的2048后续最新效果展示&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -183,8 +206,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;这标题有点长哈🤣&lt;/p&gt;
-&lt;h1 id=&quot;1-问题的出现&quot;&gt;&lt;a href=&quot;#1-问题的出现&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -213,7 +235,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -222,11 +244,11 @@
     <category term="MATLAB" scheme="https://www.226yzy.com/categories/MATLAB/"/>
     
     
+    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
     <category term="MATLAB" scheme="https://www.226yzy.com/tags/MATLAB/"/>
     
     <category term="数学建模" scheme="https://www.226yzy.com/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
-    
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="汇总" scheme="https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/"/>
     
@@ -244,7 +266,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  </summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -273,8 +295,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;​       求最短路径的算法有很多种，本文介绍其中的两种算法——Floyd与Dijkstra算法&lt;/p&gt;
-&lt;p&gt;​    </summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -303,9 +324,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本文汇总我自己常用的网站&lt;/p&gt;
-&lt;p&gt;(持续不定时更新……)&lt;/p&gt;
-&lt;h1 id=&quot;1-ACM相关OJ&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -336,7 +355,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -367,7 +386,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -398,7 +417,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
@@ -429,7 +448,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
         
       
     
