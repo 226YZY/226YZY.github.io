@@ -3,8 +3,8 @@ function GithubCalendar(git_githubapiurl,git_color,git_user){
         var github_canlendar = (git_user,git_githubapiurl, git_color) => {
             var git_fixed = 'fixed';
             var git_px = 'px';
-            var git_month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-            // var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+            //var git_month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
             var git_monthchange = [];
             var git_oneyearbeforeday = '';
             var git_thisday = '';
@@ -89,7 +89,7 @@ var responsiveChart = () => {
           var monthindexlist = github_calendar_c.width / 24;
           for (var index in git_monthchange) {
             github_calendar_ctx.fillText(git_monthchange[index], monthindexlist, 0.7 * linemaxwitdh);
-            monthindexlist = monthindexlist + github_calendar_c.width / 12
+            monthindexlist = monthindexlist + github_calendar_c.width / 16
           }
         }
         github_calendar_c.onmousemove = function (event) {
