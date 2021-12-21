@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2021-12-21T11:03:14.782Z</updated>
+  <updated>2021-12-21T16:28:20.343Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vue工程项目构建</title>
+    <link href="https://www.226yzy.com/2021/122227789.html"/>
+    <id>https://www.226yzy.com/2021/122227789.html</id>
+    <published>2021-12-21T16:23:17.829Z</published>
+    <updated>2021-12-21T16:28:20.343Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="https://www.226yzy.com/categories/Vue/"/>
+    
+    
+    <category term="vue" scheme="https://www.226yzy.com/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>将项目上传至GitHub</title>
     <link href="https://www.226yzy.com/2021/122151725.html"/>
     <id>https://www.226yzy.com/2021/122151725.html</id>
     <published>2021-12-21T10:58:02.328Z</published>
-    <updated>2021-12-21T11:03:14.782Z</updated>
+    <updated>2021-12-21T11:04:22.015Z</updated>
     
     
       
