@@ -30,7 +30,7 @@
   font-weight:lighter
 }
 a.article-title, a.blog-slider__title, a.categoryBar-list-link, h1.post-title {
-  font-family:'MYJH'
+  font-family:'MYJH';
 }
 
 #subtitle{
@@ -160,21 +160,25 @@ h1{
 
 /* 夜间模式色彩适配，此处仅代表糖果屋夜间模式配色 */
 [data-theme="dark"] .card-widget:not(.card-info) {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 1) !important;
+  
 }
 
 [data-theme="dark"] .item-headline {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 [data-theme="dark"] .item-headline:after {
-  background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  border-bottom: 0 solid rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-bottom: 0 solid rgba(0, 0, 0, 1);
+  border-top: 2px solid #59cbfd;
+  border-left: 2px solid #59cbfd;
+  border-right: 2px solid #59cbfd;
 }
 
 [data-theme="dark"] .item-headline:before {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1);
 }
 
 
