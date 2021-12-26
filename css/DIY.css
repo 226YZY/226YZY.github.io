@@ -5,14 +5,7 @@
   overflow: hidden;
 }
 
-@font-face {
-  font-family: 'DIYJH';
-  src: url('/fonts/FZZJ-JHTJW.TTF');
-  font-display: swap;
-}
-
 /*https://akilar.oschina.io/posts/eb030e5a/*/
-/* SAOUI字体精简包，仅73KB */
 @font-face {
   font-family: 'SAOUI';
   src: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/SAOUI.ttf');
@@ -176,9 +169,9 @@ a:hover {
 }
 
 /* 选中输入框时的鼠标指针 */
-input:hover {
+/* input:hover {
   cursor: url('../coursor/Comix_White_Text.cur'), auto;
-}
+} */
 
 /* 悬停按钮时的鼠标指针 */
 button:hover {
