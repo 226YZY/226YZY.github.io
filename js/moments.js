@@ -67,6 +67,8 @@ var data_handle = (nofollow,data, maxnumber) => {
   html_item += '<div class="moments_chart"><span class="moments_post_info_title">活跃友链数：</span><span class="moments_post_info_number">' + unique_live_link + ' 个</span><br><span class="moments_post_info_title">当前库存：</span><span class="moments_post_info_number">' + listlenth + ' 篇</span><br></div>';
   html_item += '<div class="moments_chart"><span class="moments_post_info_title">今日更新：</span><span class="moments_post_info_number">' + today_post + ' 篇</span><br><span class="moments_post_info_title">最近更新：</span><span class="moments_post_info_number">' + last_update_time + '</span><br></div>';
   html_item += '</div>';
+  html_item += '<br><span class="moments_post_info_title">预计每半小时更新一次</span><span class="moments_post_info_number"></span><br></div>';
+
 
   for (var month_item of datalist_slice) {
     html_item += '<h2>' + month_item[0] + '</h2>';
