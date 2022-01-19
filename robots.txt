@@ -1,8 +1,15 @@
-User-agent: * Allow: /
+User-agent: * 
+Allow: /
+Allow: /p/
 Allow: /archives/
-Disallow: /vendors/
-Disallow: /categories/
+Allow: /categories/
+Allow: /tags/ 
+Allow: /2022/ 
+Allow: /2021/ 
+Allow: /my2048game/
+Allow: /Mysearch/
+Allow: /about/
 
 
-Sitemap: http://www.226yzy.com/sitemap.xml
-Sitemap: http://www.226yzy.com/baidusitemap.xml
+Sitemap: https://www.226yzy.com/sitemap.xml
+Sitemap: https://www.226yzy.com/baidusitemap.xml
