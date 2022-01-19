@@ -1,6 +1,5 @@
 User-agent: * 
 Allow: /
-Allow: /p/
 Allow: /archives/
 Allow: /categories/
 Allow: /tags/ 
