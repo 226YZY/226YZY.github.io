@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.226yzy.com/about/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/reward/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/message/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.226yzy.com/link/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
@@ -66,13 +87,6 @@
   
   <url>
     <loc>https://www.226yzy.com/categories/index.html</loc>
-    
-    <lastmod>2022-01-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/about/index.html</loc>
     
     <lastmod>2022-01-16</lastmod>
     
@@ -354,6 +368,13 @@
   </url>
   
   <url>
+    <loc>https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.226yzy.com/tags/Hello-World/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
@@ -382,27 +403,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/GitHub/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
@@ -424,6 +424,27 @@
   </url>
   
   <url>
+    <loc>https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/GitHub/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/Markdown/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.226yzy.com/tags/2048/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
@@ -432,13 +453,6 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/%E5%B0%8F%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/Markdown/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -517,13 +531,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/GitHub/</loc>
-    <lastmod>2022-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/categories/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
@@ -531,7 +538,7 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/%E5%B0%8F%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://www.226yzy.com/categories/GitHub/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -539,6 +546,13 @@
   
   <url>
     <loc>https://www.226yzy.com/categories/Markdown/</loc>
+    <lastmod>2022-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/categories/%E5%B0%8F%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
