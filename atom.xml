@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-01-14T14:16:30.462Z</updated>
+  <updated>2022-01-22T10:50:55.071Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【随笔】通过必应的工具发现别的网站未经允许的转载</title>
+    <link href="https://www.226yzy.com/2022/012242042.html"/>
+    <id>https://www.226yzy.com/2022/012242042.html</id>
+    <published>2022-01-22T10:42:25.000Z</published>
+    <updated>2022-01-22T10:50:55.071Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活随笔" scheme="https://www.226yzy.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="博客" scheme="https://www.226yzy.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="警示" scheme="https://www.226yzy.com/tags/%E8%AD%A6%E7%A4%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>【暂不公开】YZY的ACM模板整理-java版</title>
@@ -552,37 +579,6 @@
     <category term="matery主题" scheme="https://www.226yzy.com/tags/matery%E4%B8%BB%E9%A2%98/"/>
     
     <category term="记录整理" scheme="https://www.226yzy.com/tags/%E8%AE%B0%E5%BD%95%E6%95%B4%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的&quot;Hello World&quot; &amp; Markdown基础</title>
-    <link href="https://www.226yzy.com/2021/071060549.html"/>
-    <id>https://www.226yzy.com/2021/071060549.html</id>
-    <published>2021-07-09T16:08:05.000Z</published>
-    <updated>2022-01-13T07:59:42.294Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="https://www.226yzy.com/categories/Markdown/"/>
-    
-    
-    <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
-    
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Hello World" scheme="https://www.226yzy.com/tags/Hello-World/"/>
-    
-    <category term="Markdown" scheme="https://www.226yzy.com/tags/Markdown/"/>
     
   </entry>
   

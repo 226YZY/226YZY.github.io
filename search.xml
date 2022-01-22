@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【随笔】通过必应的工具发现别的网站未经允许的转载</title>
+      <link href="/2022/012242042.html"/>
+      <url>/2022/012242042.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p>前几天，我在手机上一不小心搜到了我写的一篇博客，本着好奇心以及疑惑的驱使，我打开查看了一下。虽然整篇内容并没有缺胳膊少腿，但是这个网站并没有注明任何转载信息（上面标明的作者也不是我，要不是这篇博客中我自己添了不少与我有关的链接，真的看不出来原作者是谁😝）【我也不是不同意转载，但好歹也要注明转载来源吧】</p><p>不过，还好那个网站所有者还是比较有良心，有留下有关的联系方式（别的黑心网站就不可能了，连备案可能都没有，所有者的任何信息你差不多），在跟网站所有者沟通后，他撤下了我那篇，并承诺完善相关内容【后来我再访问的时候，也确实看到了这些文章都有了转载来源👍】</p><p>这种情况还是要重视吧，不然哪天一大堆不明真相的群众，从什么乱七八糟的网站上过来说你抄袭🤣</p><p>(我现在被盗的文章来源应该是我的转在自己博客园账号上的,感觉以后转博客园上还是要特别留意一下)</p><blockquote><p>【转载说明】本文优先发布于我的个人博客www.226yzy.com ，转载请注明出处并注明作者：星空下的YZY。</p><p> 本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议。</p></blockquote><h1 id="必应网站管理员工具"><a href="#必应网站管理员工具" class="headerlink" title="必应网站管理员工具"></a>必应网站管理员工具</h1><p>像上面一样自己发现还是太偶然了，昨天我打开必应的网站管理者工具<a href="https://www.bing.com/webmasters/home">Home - Bing Webmaster Tools</a>想看一下SEO等其他有关数据时，发现反向链接中多了我好几个从来没见过的网站。点开访问，果然基本都是把我那篇给弄过去的。</p><p>当然能通过必应的网站管理者工具的反向链接查找到的，都是被扒过去后你藏在其中的本站链接未被去除的。（要是弄过去后，把你的有关内容去的一干二净的“孤儿”，那也只能。。。【拿某一段到搜索引擎上查一查，说不定能发现那些“孤儿”】）</p><p>虽然有自己藏在其中的有关信息还在，但是像这种网站是爬了很多来源的文章，对于哪些没有防备的文章，访问者将无法得知原作者的任何信息。而且这些网站的文章上面的作者注明都是与那个网站有关，与原作者半毛钱关系都没有。而且有些周围还一堆广告，拿你的东西来盈利还不自觉注明转载来源的，我只能说：恶心！恶心！恶心啊！🤮</p><h1 id="一些应对办法"><a href="#一些应对办法" class="headerlink" title="一些应对办法"></a>一些应对办法</h1><blockquote><p>可能不全或不完善，欢迎大佬指出</p></blockquote><p>那些恶心人的操作是管不住的,只能自己有所防备</p><h2 id="添加转载说明及作者有关信息"><a href="#添加转载说明及作者有关信息" class="headerlink" title="添加转载说明及作者有关信息"></a>添加转载说明及作者有关信息</h2><p>最好在不影响阅读的情况下在文章前面添加这些信息，然后可以在文章尾部在来一次。如果不嫌麻烦，在文章中适当添一些有关信息那是最好的。而且。。。还能水水字数🤭</p><p>【我的个人博客www.226yzy.com】</p><h2 id="图片防盗链"><a href="#图片防盗链" class="headerlink" title="图片防盗链"></a>图片防盗链</h2><p>有一些图床（比如聚合图床<a href="https://www.superbed.cn/">聚合图床 - 免费无限图片上传 (superbed.cn)</a>）是可以开启防盗链的（可能要会员😅）。这样被盗的文章中引用该图片资源的图片将无法正常显示</p><div class="tip home faa-horizontal animated"><p>【所以，像给友链的有关图片时，最好用自己肯定不会用防盗链的来源】</p></div><h2 id="图片水印"><a href="#图片水印" class="headerlink" title="图片水印"></a>图片水印</h2><p>这个加水印嘛，能用则用。盗的人想处理，估计要下点功夫（所以水印位置，不要太固定）</p><ul><li>图床</li></ul><p>图床有的有这种功能（可能要会员😅）</p><ul><li>插件</li></ul><blockquote><p>这个我没用过,就找网上几篇参考吧，可能就对博客源文件中的图片有效</p></blockquote><p><a href="https://cloud.tencent.com/developer/article/1558511">Hexo 文章图片添加水印，不用云处理 - 云+社区 - 腾讯云 (tencent.com)</a></p><p><a href="https://www.cnblogs.com/linx/p/12762472.html">hexo 图片添加水印（png, jpeg, jpg, gif） - 极·简 - 博客园 (cnblogs.com)</a></p><ul><li>自己手动给图片加水印</li></ul><p>这个自己P图可能真的太麻烦</p><p>我找到了几个在线编辑的</p><p><a href="https://www.gaitubao.com/shuiyin/">在线给图片加水印、照片上添加文字、图片加LOGO工具 - 改图宝 (gaitubao.com)</a></p><p><a href="http://watermark.dxcweb.com/">在线图片加水印，canvas加水印,防止身份证复印件被盗 (dxcweb.com)</a></p><h2 id="在代码的注释中添加有关信息（如果有的话）"><a href="#在代码的注释中添加有关信息（如果有的话）" class="headerlink" title="在代码的注释中添加有关信息（如果有的话）"></a>在代码的注释中添加有关信息（如果有的话）</h2><p>在不影响使用的情况下，可以添一点。</p><h2 id="标签外挂"><a href="#标签外挂" class="headerlink" title="标签外挂"></a>标签外挂</h2><p>我好像我现在使用的标签外挂，别的主题不知道能不能用。反正这个用了还能美化页面，挺好的。</p><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>暂时就上面这些吧</p><p>欢迎访问我的小破站<a href="https://www.226yzy.com/或者GitHub版镜像https://226yzy.github.io/或Gitee版镜像https://yzy226.gitee.io/">https://www.226yzy.com/或者GitHub版镜像https://226yzy.github.io/或Gitee版镜像https://yzy226.gitee.io/</a></p><p>我的Github<a href="https://github.com/226YZY">226YZY (星空下的YZY) (github.com)</a></p><blockquote><p>【转载说明】本文优先发布于我的个人博客www.226yzy.com ，转载请注明出处并注明作者：星空下的YZY。</p><p>本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 警示 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【暂不公开】YZY的ACM模板整理-java版</title>
       <link href="/2022/011424656.html"/>
       <url>/2022/011424656.html</url>
