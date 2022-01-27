@@ -3450,9 +3450,6 @@ li.categoryBar-list-item {
   background-repeat: no-repeat !important;
 }
 li.categoryBar-list-item:hover {
-  -webkit-background-size: 190% !important;
-  -moz-background-size: 190% !important;
-  background-size: 190% !important;
   -webkit-box-shadow: inset 500px 50px 50px 50px rgba(50,50,50,0.6);
   box-shadow: inset 500px 50px 50px 50px rgba(50,50,50,0.6);
 }
