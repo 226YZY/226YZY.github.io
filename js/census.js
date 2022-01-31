@@ -9,7 +9,7 @@ var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访�
 var metricsName = (metrics === 'pv_count' ? '访问次数' : (metrics === 'visitor_count' ? '访客数' : ''))
 // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义
 var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.7)'
-var myvisit = 2681 + 3700; //我本人大概访问的次数
+var myvisit = 2681 + 4000; //我本人大概访问的次数
 // 访问地图
 function mapChart() {
   let script = document.createElement("script")
@@ -18,7 +18,7 @@ function mapChart() {
     let mapName = data.result.items[0]
     let mapValue = data.result.items[1]
     let mapArr = []
-    let max = mapValue[0][0]-myvisit
+    let max = mapValue[0][0] - myvisit
     for (let i = 0; i < mapName.length; i++) {
       if (mapName[i][0].name == "浙江") {
         mapArr.push({
@@ -235,10 +235,17 @@ function sourcesChart() {
       let sourcesValue = data.result.items[1]
       let sourcesArr = []
       for (let i = 0; i < sourcesName.length; i++) {
-        sourcesArr.push({
-          name: sourcesName[i][0].name,
-          value: sourcesValue[i][0]
+        if (sourcesName[i][0].name != "直接访问"){
+          sourcesArr.push({
+            name: sourcesName[i][0].name,
+            value: sourcesValue[i][0]
         })
+        }else{
+          sourcesArr.push({
+            name: sourcesName[i][0].name,
+            value: sourcesValue[i][0]-myvisit
+        })
+        }
       }
       let sourcesArrJson = JSON.stringify(sourcesArr)
       script.innerHTML = `
