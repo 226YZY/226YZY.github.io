@@ -5,12 +5,13 @@
 function loadStatistical(sdata){
   // 友链页面的挂载容器
   var container = document.getElementById('fcircleContainer');
+  // 最近更新时间
+  var Last_updated_time=formatDate(sdata.last_updated_time);
   // 基本信息的html结构
-  
   var messageBoard =`
   <div id="fMessageBoard">
     <div class="fUpdatedTime">
-      <span class="fLabel">最近更新时间：</span><span class="fMessage">${sdata.last_updated_time}</span>
+      <span class="fLabel">最近更新时间：</span><span class="fMessage" style="color: #1E90FF">${Last_updated_time}</span><span class="fLabel">&nbsp【预计每半小时更新一次】</span>
     </div>
     <div class="fMessageItem">
       <div class="fActiveFriend fItem">
@@ -167,6 +168,35 @@ function loadStatistical(sdata){
       }
     }
   }
+
+
+  //时区优化
+var formatDate = (strDate) => {
+  try {
+    var date = new Date(Date.parse(strDate.replace(/-/g, "/")));
+    var gettimeoffset;
+    if (new Date().getTimezoneOffset()) {
+      gettimeoffset = new Date().getTimezoneOffset();
+    } else {
+      gettimeoffset = 8;
+    }
+    var timeoffset = gettimeoffset * 60 * 1000;
+    var len = date.getTime();
+    var date2 = new Date(len - timeoffset);
+    var sec = date2.getSeconds().toString();
+    var min = date2.getMinutes().toString();
+    if (sec.length === 1) {
+      sec = "0" + sec;
+    }
+    if (min.length === 1) {
+      min = "0" + min;
+    }
+    return date2.getFullYear().toString() + "-" + (date2.getMonth() + 1).toString() + "-" + date2.getDate().toString() + " " + date2.getHours().toString() + ":" + min + ":" + sec
+  } catch (e) {
+    return ""
+  }
+};
+
   //执行初始化方法
   initFriendCircle()
   

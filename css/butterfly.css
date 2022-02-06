@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: 'SAOUI';
   src: url("https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/SAOUI.ttf");
   font-display: swap;
-}
+} */
 #fMessageBoard {
   font-size: 20px;
   background: rgba(249,249,249,0.8);
