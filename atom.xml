@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-02-07T11:58:13.502Z</updated>
+  <updated>2022-02-07T12:01:03.596Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.226yzy.com/2022/020733811.html"/>
     <id>https://www.226yzy.com/2022/020733811.html</id>
     <published>2022-02-07T11:39:32.000Z</published>
-    <updated>2022-02-07T11:58:13.502Z</updated>
+    <updated>2022-02-07T12:01:03.596Z</updated>
     
     
       
@@ -38,6 +38,8 @@
     
     
     <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
+    
+    <category term="博客" scheme="https://www.226yzy.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="友链朋友圈" scheme="https://www.226yzy.com/tags/%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
     
