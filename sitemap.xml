@@ -305,13 +305,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/Android/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
@@ -326,7 +319,7 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>https://www.226yzy.com/tags/Android/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -341,6 +334,13 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -424,27 +424,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/Git/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/Coding/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/tags/Hello-World/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
@@ -466,6 +445,27 @@
   </url>
   
   <url>
+    <loc>https://www.226yzy.com/tags/Git/</loc>
+    <lastmod>2022-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/Coding/</loc>
+    <lastmod>2022-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2022-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.226yzy.com/tags/%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
@@ -473,14 +473,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/GitHub/</loc>
+    <loc>https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/</loc>
+    <loc>https://www.226yzy.com/tags/GitHub/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -515,14 +515,7 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/2048/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/%E5%B0%8F%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://www.226yzy.com/tags/butterfly%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -536,7 +529,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/butterfly%E4%B8%BB%E9%A2%98/</loc>
+    <loc>https://www.226yzy.com/tags/2048/</loc>
+    <lastmod>2022-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/tags/%E5%B0%8F%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -552,14 +552,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/%E6%8E%A2%E7%B4%A2%E5%AE%9E%E8%B7%B5/</loc>
+    <loc>https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://www.226yzy.com/categories/%E6%8E%A2%E7%B4%A2%E5%AE%9E%E8%B7%B5/</loc>
     <lastmod>2022-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
