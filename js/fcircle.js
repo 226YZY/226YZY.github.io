@@ -10,7 +10,7 @@ function loadStatistical(sdata) {
   var messageBoard = `
   <div id="fMessageBoard">
     <div class="fUpdatedTime">
-      <span class="fLabel">最近更新时间：</span><span class="fMessage" style="color: #1E90FF">${Last_updated_time}</span><span class="fLabel">【预计每半小时更新一次】</span>
+      <span class="fLabel">最近更新时间：</span><span class="fMessage" style="color: #1E90FF">${Last_updated_time}</span><span class="fLabel">【预计每3小时更新一次】</span>
     </div>
     <div class="fMessageItem">
       <div class="fActiveFriend fItem">
