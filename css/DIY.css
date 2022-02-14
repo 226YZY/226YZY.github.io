@@ -345,4 +345,7 @@ svg.icon.festival-decoration {
 }
 }
 
+#page-header:not(.not-top-img)::before{
+  background-color: rgba(0,0,0,0);
+}
 
