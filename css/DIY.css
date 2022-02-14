@@ -29,7 +29,7 @@
   font-display:swap;
   font-weight:lighter
 }
-a.article-title, a.blog-slider__title, a.categoryBar-list-link, h1.post-title {
+ a.article-title, a.blog-slider__title, a.categoryBar-list-link, h1.post-title {
   font-family:'MYJH';
 }
 
@@ -52,6 +52,11 @@ h1{
 .card-info img {
   border: #59cbfd solid 4px;
   border-radius: 70px;
+}
+
+#card-info-btn{
+  border-radius: 15px;
+  font-family: ZhuZiAYuanJWD !important;
 }
 
 /* 应用于除了作者卡片以为的所有侧栏卡片 */
@@ -77,8 +82,8 @@ h1{
   border-top-left-radius: 0px !important;
   font-family: 'SAOUI' !important;
   color: rgba(60, 60, 61, 0.7) !important;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: bold; 
+  
 }
 
 /* 修复一下对侧栏电子钟的覆盖 */
@@ -288,6 +293,25 @@ svg.icon {
   z-index: -1;
 }
 
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+.iconfont{
+  font-size: 18px;
+  font-weight:normal!important;
+}
+
+#aside-content .card-announcement .item-headline i{
+  color: #f1680c;
+}
+
 /* 节日挂件  */
 svg.icon.festival-decoration {
   width: 3em;
@@ -320,3 +344,5 @@ svg.icon.festival-decoration {
   transform-origin: center top;
 }
 }
+
+
