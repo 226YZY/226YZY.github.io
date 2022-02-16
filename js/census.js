@@ -1,8 +1,8 @@
-//https://baidu-tongji-api-sigma.vercel.app/api?access_token=121.a32a1712aab47c35e1f269faa780ef7b.Y5XkcxdYjh7JuwuPQBJKD_hQU05IBAdpfDl5uN-.wgj5_w&site_id=16940767&start_date=20210705&end_date=20220127&metrics=pv_count&method=visit/district/a
+//https://baidu-tongji-api-sigma.vercel.app/api?access_token=121.adec5b81e74bfe6a496a6747892696f6.YBXI4LX5SHsYsQFsCf1mM0K7JUUZzFYEIP7FcB-.iA50Kg&site_id=16940767&start_date=20210705&end_date=20220127&metrics=pv_count&method=visit/district/a
 var start_date = '20210705' // 开始日期
 var date = new Date();
 var end_date = '' + date.getFullYear() + (date.getMonth() > 8 ? (date.getMonth() + 1) : ("0" + (date.getMonth() + 1))) + (date.getDate() > 9 ? date.getDate() : ("0" + date.getDate())); // 结束日期
-var access_token = '121.a32a1712aab47c35e1f269faa780ef7b.Y5XkcxdYjh7JuwuPQBJKD_hQU05IBAdpfDl5uN-.wgj5_w' // accessToken
+var access_token = '121.adec5b81e74bfe6a496a6747892696f6.YBXI4LX5SHsYsQFsCf1mM0K7JUUZzFYEIP7FcB-.iA50Kg' // accessToken
 var site_id = '16940767' // 网址id
 var dataUrl = 'https://baidu-tongji-api-sigma.vercel.app/api?access_token=' + access_token + '&site_id=' + site_id
 var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一

@@ -6,26 +6,26 @@
 }
 @font-face {
   font-family: 'MYJH';
-  src: url('https://cdn.jsdelivr.net/gh/226YZY/226YZY.github.io@1.0.2.2/FZZJ-JHTJW.TTF');
+  src: url('/fonts/FZZJ-JHTJW.TTF');
   font-display: swap;
 }
 
-/*https://akilar.oschina.io/posts/eb030e5a/*/
+/*https://akilar.oschina.io/posts/eb030e5a/   https://cdn.jsdelivr.net/gh/226YZY/226YZY.github.io@1.0.2.2/FZZJ-JHTJW.TTF*/
 @font-face {
   font-family: 'SAOUI';
-  src: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/SAOUI.ttf');
+  src: url('https://npm.elemecdn.com/akilar-candyassets/fonts/SAOUI.ttf');
   font-display: swap;
 }
 
 /* @font-face {
   font-family:Candyhome;
-  src:url(https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/Candyhome.ttf);
+  src:url(https://npm.elemecdn.com/akilar-blog@1.0.4/fontsdest/Candyhome.ttf);
   font-display:swap;
   font-weight:lighter
 } */
 @font-face {
   font-family:ZhuZiAYuanJWD;
-  src:url(https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/ZhuZiAWan.woff2);
+  src:url('https://npm.elemecdn.com/akilar-blog@1.0.4/fontsdest/ZhuZiAWan.ttf');
   font-display:swap;
   font-weight:lighter
 }
