@@ -6,11 +6,11 @@
 }
 @font-face {
   font-family: 'MYJH';
-  src: url('/fonts/FZZJ-JHTJW.TTF');
+  src: url('https://cdn1.tianli0.top/gh/226YZY/226YZY.github.io@1.0.2.2/FZZJ-JHTJW.TTF');
   font-display: swap;
 }
 
-/*https://akilar.oschina.io/posts/eb030e5a/   https://cdn.jsdelivr.net/gh/226YZY/226YZY.github.io@1.0.2.2/FZZJ-JHTJW.TTF*/
+/*https://akilar.oschina.io/posts/eb030e5a/   /fonts/FZZJ-JHTJW.TTF  https://cdn.jsdelivr.net/gh/226YZY/226YZY.github.io@1.0.2.2/FZZJ-JHTJW.TTF*/
 @font-face {
   font-family: 'SAOUI';
   src: url('https://npm.elemecdn.com/akilar-candyassets/fonts/SAOUI.ttf');
