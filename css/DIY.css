@@ -303,6 +303,16 @@ svg.icon {
   /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
 
+.aplayer-lrc{
+  display: none !important;
+}
+
+.aplayer-lrc-hide{
+  display: block !important;
+}
+
+
+
 .iconfont{
   font-size: 18px;
   font-weight:normal!important;
@@ -348,4 +358,5 @@ svg.icon.festival-decoration {
 #page-header:not(.not-top-img)::before{
   background-color: rgba(0,0,0,0);
 }
+
 
