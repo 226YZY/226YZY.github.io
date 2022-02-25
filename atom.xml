@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-02-07T12:01:03.596Z</updated>
+  <updated>2022-02-25T13:35:02.600Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【杂记】各类零碎笔记（不定期更新）</title>
+    <link href="https://www.226yzy.com/2022/022547844.html"/>
+    <id>https://www.226yzy.com/2022/022547844.html</id>
+    <published>2022-02-25T13:23:25.000Z</published>
+    <updated>2022-02-25T13:35:02.600Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="杂记" scheme="https://www.226yzy.com/tags/%E6%9D%82%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>友链朋友圈4.X.X前端适配尝试【基于店长Akilar的旧版方案】</title>
@@ -526,37 +551,6 @@
     <category term="数学建模" scheme="https://www.226yzy.com/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
     <category term="汇总" scheme="https://www.226yzy.com/tags/%E6%B1%87%E6%80%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MATLAB拟合圆</title>
-    <link href="https://www.226yzy.com/2021/083053025.html"/>
-    <id>https://www.226yzy.com/2021/083053025.html</id>
-    <published>2021-08-30T05:03:45.000Z</published>
-    <updated>2022-01-27T14:30:48.549Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="MATLAB" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/MATLAB/"/>
-    
-    
-    <category term="MATLAB" scheme="https://www.226yzy.com/tags/MATLAB/"/>
-    
-    <category term="拟合圆" scheme="https://www.226yzy.com/tags/%E6%8B%9F%E5%90%88%E5%9C%86/"/>
-    
-    <category term="数学建模" scheme="https://www.226yzy.com/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
     
   </entry>
   
