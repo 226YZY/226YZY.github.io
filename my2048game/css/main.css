@@ -1,12 +1,13 @@
-*{
+* {
     text-decoration: none;
 }
+
 body {
     width: auto;
     height: auto;
     text-align: center;
     background-color: #E0FFFF;
-    overflow-x:hidden;   
+    overflow-x: hidden;
 }
 
 
@@ -15,22 +16,26 @@ table {
     font-size: 30px;
     font-weight: bold;
     background-color: #bbada0;
-    margin: 0px auto; /*上下外边距为0，左右根据宽度自适应,即水平居中*/
+    margin: 0px auto;
+    /*上下外边距为0，左右根据宽度自适应,即水平居中*/
     margin-top: 20px;
-    border-radius: 10px; /* 设置表格边框圆角 */
+    border-radius: 10px;
+    /* 设置表格边框圆角 */
 }
+
 td {
     width: 80px;
     height: 80px;
     border-radius: 10px;
     background-color: rgb(29, 180, 250);
 }
-#theMark{
+
+#theMark {
     font-size: 36px;
     font-weight: bold;
 }
 
-#newgame{
+#newgame {
     background-color: rgb(241, 176, 56);
     border-radius: 5px;
     width: 150px;
@@ -40,46 +45,48 @@ td {
     font-weight: 800;
     margin-top: 20px;
 }
-#mark{
+
+#mark {
     font-size: 36px;
     font-weight: bold;
     color: rgb(33, 132, 245);
 }
 
-#gameover{
+#gameover {
     font-size: 36px;
     font-weight: bold;
-    display:none;
+    display: none;
     color: crimson;
     margin: 0 auto;
 }
 
-#heander{
+#heander {
     width: 100%;
     height: 80px;
 }
 
-#my{
+#my {
     padding-left: 5%;
     text-align: left;
 }
 
-#my img{
+#my img {
     width: 45px;
     height: 45px;
 }
-#myid{
+
+#myid {
     padding: 8px;
-    position:absolute;
+    position: absolute;
 }
 
-#myid :hover{
+#myid :hover {
     color: rgb(30, 127, 238);
 }
 
-#my a{
+#my a {
     color: rgb(26, 164, 245);
-    font-size:17px;
+    font-size: 17px;
     font-weight: 700;
     margin: 0 auto;
 }
@@ -112,4 +119,11 @@ td {
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
 
+/*音乐播放器默认不显示歌词*/
+.aplayer-lrc {
+    display: none !important;
+}
 
+.aplayer-lrc-hide {
+    display: block !important;
+}
