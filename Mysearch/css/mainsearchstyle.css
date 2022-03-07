@@ -27,21 +27,26 @@ iframe {
     font-weight: 900;
 }
 
-ul {
+.top ul {
     list-style: none;
     position: absolute;
     top: 5px;
     width: 100%;
+    font-weight: bolder;
 }
 
-ul li {
+.top ul li {
     float: left;
     margin-right: 15px;
 }
 
-ul li a {
+.top ul li a {
     color: aliceblue;
     text-decoration: none;
+}
+
+.top ul li :hover{
+    color: rgb(43, 163, 243);
 }
 
 .title {
@@ -65,7 +70,8 @@ ul li a {
 .report {
     width: 100%;
     height: 50px;
-    font-family: "华文新魏"
+    font-family: "华文新魏";
+    font-weight: bolder;
 }
 
 /* 搜索框css */
@@ -73,32 +79,71 @@ ul li a {
 .box {
     width: 100%;
     height: 200px auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
-.search1 {
-    width: 35%;
+.box table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#s-1{
+    width: 100px;
+    float:right;
+    margin: 5px;
     height: 40px;
+}
+
+#s-1 ul {
+    list-style-type: none;
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    color: #0bc5f3;
+}
+
+#s-1 ul li{
+background-color: #f0f8ff;
+width: 100px;
+height: 40px;
+font-weight: bolder;
+line-height: 40px;
+font-size: 16px;
+}
+
+
+
+.search1 {
+    float: left;
+    width: 60%;
+    height: 38px;
     line-height: 36px;
     background: rgb(255, 255, 255, 0.8);
     border: 1px solid;
     font-size: 16px;
     color: rgb(3, 3, 3);
-    margin-left: 80px;
+    margin-top: 5px;
+    font-weight: bolder;
 }
 
 .search2 {
     width: 104px;
-    height: 45px;
+    height: 40px;
     font-size: 16px;
-    background: rgb(16, 107, 226);
+    background: rgb(16, 149, 226);
     color: aliceblue;
     line-height: 40px;
     border: none;
+    float: left;
+    margin: 5px;
+    font-weight: bolder;
 }
 
 .search2:hover {
-    background: rgb(42, 42, 231);
+    background: rgb(42, 171, 231);
 }
 
 
@@ -127,6 +172,7 @@ ul li a {
 .main {
     height: 100%;
     flex: 1;
+    margin: 100px;
 }
 
 .floor {
@@ -139,6 +185,10 @@ ul li a {
 @media screen and (max-width: 600px) {
     .floor {
         display: none;
+    }
+
+    .box table{
+        width: 100%;
     }
 
     .search1 {
@@ -157,5 +207,10 @@ ul li a {
         float: left;
         margin-right: 10px;
         font-size: small;
+    }
+    .main {
+        height: 100%;
+        flex: 1;
+        margin: 0;
     }
 }

@@ -74,12 +74,41 @@
         </div>
         <!--搜索框-->
         <div class="box">
-            <!--搜索引擎-->
-            <form action="https://www.baidu.com.cn/s" method="get">
-                <input type="hidden" name="cl" value="3" />
-                <input type="text" name="wd" class="search1" placeholder="请输入搜索的内容..." />
-                <input type="submit" value="搜索" class="search2" />
-            </form>
+            <table >
+                <tr>
+                    <td id="s-1">
+						<ul>
+							<li class="searchEngine" style="display:block;">百度</li>
+                            <li class="searchEngine" style="display:none;">必应</li>
+							<li class="searchEngine" style="display:none;">谷歌</li>
+							<li class="searchEngine" style="display:none;">搜狗</li>
+                            <li class="searchEngine" style="display:none;">360</li>
+						</ul>
+					</td>
+                    <td id="from_box">
+                        <form id="from_baidu" style="display:block" action="https://www.baidu.com.cn/s" method="get">
+                            <input type="text" name="wd" class="search1" placeholder="请输入搜索的内容..." />
+                            <input type="submit" value="搜索" class="search2" />
+                        </form>
+                        <form id="from_bing" style="display:none" action="https://cn.bing.com/search" target="_blank" name="sogou_queryform">
+                            <input type="text" name="q" class="search1" placeholder="请输入搜索的内容...">
+                            <input type="submit" value="搜索"  class="search2" />
+                        </form> 
+                        <form id="from_google" style="display:none" action="https://www.google.com/search" target="_blank" method="get">
+                            <input type="text" name="q" class="search1" placeholder="请输入搜索的内容..." />
+                            <input type="submit" value="搜索" class="search2" />
+                        </form>
+                        <form id="from_sougou" style="display:none" action="https://www.sogou.com/web" target="_blank" name="sogou_queryform">
+                            <input type="text" name="query" class="search1" placeholder="请输入搜索的内容...">
+                            <input type="submit" value="搜索"  class="search2" />
+                        </form> 
+                        <form id="from_360" style="display:none" action="https://www.so.com/s" target="_blank" name="sogou_queryform">
+                            <input type="text" name="q" class="search1" placeholder="请输入搜索的内容...">
+                            <input type="submit" value="搜索"  class="search2" />
+                        </form>
+                    </td>
+                </tr>
+            </table>
         </div>
 
     </div>
@@ -103,7 +132,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/226yzy/live2d-widget/autoload.js"></script>
 </body>
-<script src="js/hahaha.js"></script>
+<script src="js/chooseSearchEngine.js"></script>
 <!-- 百度统计 -->
 <script>
     var _hmt = _hmt || [];
