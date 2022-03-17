@@ -8,6 +8,7 @@ Allow: /2021/
 Allow: /my2048game/
 Allow: /Mysearch/
 Allow: /about/
+Disallow: /WebStackPage/
 
 
 Sitemap: https://www.226yzy.com/sitemap.xml
