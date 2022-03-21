@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-03-04T01:16:17.785Z</updated>
+  <updated>2022-03-21T15:07:46.876Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>live2d-widget（看板娘）修改及部署至服务器</title>
+    <link href="https://www.226yzy.com/2022/032130325.html"/>
+    <id>https://www.226yzy.com/2022/032130325.html</id>
+    <published>2022-03-21T14:49:48.000Z</published>
+    <updated>2022-03-21T15:07:46.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="探索实践" scheme="https://www.226yzy.com/categories/%E6%8E%A2%E7%B4%A2%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="看板娘" scheme="https://www.226yzy.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+    <category term="跨域问题" scheme="https://www.226yzy.com/tags/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>【生活随笔】又是一年226,祝自己生日快乐</title>
@@ -514,35 +541,6 @@
     <category term="2048" scheme="https://www.226yzy.com/tags/2048/"/>
     
     <category term="小游戏" scheme="https://www.226yzy.com/tags/%E5%B0%8F%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对于Git出现git@e.coding.net:(publickey).问题的解决</title>
-    <link href="https://www.226yzy.com/2021/112156639.html"/>
-    <id>https://www.226yzy.com/2021/112156639.html</id>
-    <published>2021-11-20T18:09:46.000Z</published>
-    <updated>2022-02-16T19:11:58.304Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="博客相关" scheme="https://www.226yzy.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="Git" scheme="https://www.226yzy.com/tags/Git/"/>
-    
-    <category term="Coding" scheme="https://www.226yzy.com/tags/Coding/"/>
-    
-    <category term="解决" scheme="https://www.226yzy.com/tags/%E8%A7%A3%E5%86%B3/"/>
     
   </entry>
   
