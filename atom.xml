@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-04-19T06:01:09.167Z</updated>
+  <updated>2022-04-24T13:54:11.006Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【公告】计划暂停访问一星期左右，原因：将备案接入服务商转为腾讯云</title>
+    <link href="https://www.226yzy.com/2022/042448136.html"/>
+    <id>https://www.226yzy.com/2022/042448136.html</id>
+    <published>2022-04-24T13:25:24.000Z</published>
+    <updated>2022-04-24T13:54:11.006Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活随笔" scheme="https://www.226yzy.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="公告" scheme="https://www.226yzy.com/tags/%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>正则表达式</title>
@@ -150,7 +175,7 @@
     <link href="https://www.226yzy.com/2022/022547844.html"/>
     <id>https://www.226yzy.com/2022/022547844.html</id>
     <published>2022-02-25T13:23:25.000Z</published>
-    <updated>2022-03-26T13:13:45.929Z</updated>
+    <updated>2022-04-24T13:49:48.048Z</updated>
     
     
       
@@ -500,37 +525,6 @@
     <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
     
     <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL 触发器</title>
-    <link href="https://www.226yzy.com/2021/121130800.html"/>
-    <id>https://www.226yzy.com/2021/121130800.html</id>
-    <published>2021-12-11T12:42:33.000Z</published>
-    <updated>2022-01-27T06:55:17.351Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="MySQL" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/MySQL/"/>
-    
-    
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="MySQL" scheme="https://www.226yzy.com/tags/MySQL/"/>
-    
-    <category term="触发器" scheme="https://www.226yzy.com/tags/%E8%A7%A6%E5%8F%91%E5%99%A8/"/>
     
   </entry>
   
