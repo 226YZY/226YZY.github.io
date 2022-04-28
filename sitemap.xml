@@ -452,14 +452,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E7%BB%84%E4%BB%B6/</loc>
+    <loc>https://www.226yzy.com/tags/ACM/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/ACM/</loc>
+    <loc>https://www.226yzy.com/tags/%E7%BB%84%E4%BB%B6/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -515,6 +515,13 @@
   </url>
   
   <url>
+    <loc>https://www.226yzy.com/tags/%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2022-04-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.226yzy.com/tags/%E5%85%AC%E5%91%8A/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
@@ -550,7 +557,7 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://www.226yzy.com/tags/%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -564,14 +571,14 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E5%8F%8B%E9%93%BE%E6%9C%8B%E5%8F%8B%E5%9C%88/</loc>
+    <loc>https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/</loc>
+    <loc>https://www.226yzy.com/tags/GitHub/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -613,7 +620,7 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/tags/GitHub/</loc>
+    <loc>https://www.226yzy.com/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -621,13 +628,6 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/butterfly%E4%B8%BB%E9%A2%98/</loc>
-    <lastmod>2022-04-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84/</loc>
     <lastmod>2022-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
