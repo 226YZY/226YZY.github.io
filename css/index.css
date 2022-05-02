@@ -3317,16 +3317,16 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://i.imgtg.com/2022/02/15/TXgvD.md.jpg');
+  background: url('https://pic.imgdb.cn/item/61aec8fd2ab3f51d91571990.jpg');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://i.imgtg.com/2022/02/15/TXREb.md.jpg');
+  background: url('https://pic.imgdb.cn/item/61aec9172ab3f51d915726d8.jpg');
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: url('https://i.imgtg.com/2022/02/15/TXmdF.md.jpg');
+  background: url('https://pic.imgdb.cn/item/61aec81d2ab3f51d9156a363.png');
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: url('https://i.imgtg.com/2022/02/15/TXJO6.md.jpg');
+  background: url('https://pic.imgdb.cn/item/61aec9472ab3f51d91573af8.jpg');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: '与博客相关的内容' !important;
