@@ -9,7 +9,8 @@ var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访�
 var metricsName = (metrics === 'pv_count' ? '访问次数' : (metrics === 'visitor_count' ? '访客数' : ''))
 // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义
 var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.7)'
-var myvisit = 2681 + 5500; //我本人大概访问的次数，用于修正浙江省的访问数据
+var myvisit = 2681 + 5555; //我本人大概访问的次数，用于修正浙江省的访问数据
+var othervisit=1180;
 // 访问地图
 function mapChart() {
   let script = document.createElement("script")
@@ -24,6 +25,11 @@ function mapChart() {
         mapArr.push({
           name: mapName[i][0].name,
           value: (mapValue[i][0] - myvisit)
+        })
+      }else if (mapName[i][0].name == "河南") {
+        mapArr.push({
+          name: mapName[i][0].name,
+          value: (mapValue[i][0] - othervisit)
         })
       } else {
         mapArr.push({
