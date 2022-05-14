@@ -1,0 +1,1236 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>【学习记录】CSS动画 | 星空下的YZY</title><meta name="keywords" content="CSS 动画 animation transition transform"><meta name="author" content="星空下的YZY"><meta name="copyright" content="星空下的YZY"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言：之前学这部分的时候只粗略地看了一点，实事证明我现在已经完全没了印象🤣实在惭愧，所以还是自己重新学一遍，毕竟动画效果还是挺吸引人的。 当然，很多效果网上能找到现成的，比如我在这期间找到的CSS Animation Kit (angrytools.com) 另外，为了更好地展现效果，我第一次正式在Markdown中使用了iframe 鉴于我这菜鸟的水平，本文不可避免的可能会有些错误，如有发现欢">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【学习记录】CSS动画">
+<meta property="og:url" content="https://www.226yzy.com/2022/051429756.html">
+<meta property="og:site_name" content="星空下的YZY">
+<meta property="og:description" content="前言：之前学这部分的时候只粗略地看了一点，实事证明我现在已经完全没了印象🤣实在惭愧，所以还是自己重新学一遍，毕竟动画效果还是挺吸引人的。 当然，很多效果网上能找到现成的，比如我在这期间找到的CSS Animation Kit (angrytools.com) 另外，为了更好地展现效果，我第一次正式在Markdown中使用了iframe 鉴于我这菜鸟的水平，本文不可避免的可能会有些错误，如有发现欢">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.imgtg.com/2022/02/15/TXCIc.md.jpg">
+<meta property="article:published_time" content="2022-05-14T10:57:32.000Z">
+<meta property="article:modified_time" content="2022-05-14T11:13:31.989Z">
+<meta property="article:author" content="星空下的YZY">
+<meta property="article:tag" content="CSS动画">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgtg.com/2022/02/15/TXCIc.md.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.226yzy.com/2022/051429756"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://npm.elemecdn.com/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?22dbcfcfb0678c74968f1f95135cf022";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":150,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":300},
+  copy: {
+    success: '复制成功\n转载请注明出处😝',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":200,"languages":{"author":"作者: 星空下的YZY","link":"链接: ","source":"来源: 星空下的YZY","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"top-right"},
+  source: {
+    justifiedGallery: {
+      js: 'https://npm.elemecdn.com/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://npm.elemecdn.com/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【学习记录】CSS动画',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-05-14 19:13:31'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/font_3017413_dczazlujl34.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_3180920_8w22gf4qim5.css"><script type="text/javascript">var OriginTitile=document.title,st;document.addEventListener("visibilitychange",function(){document.hidden?(document.title="ヽ(●-`Д´-)ノ别跑稍等",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ干得漂亮，成功了！",st=setTimeout(function(){document.title=OriginTitile},3e3))})</script><link rel="stylesheet" href="/css/DIY.css"" media="defer" onload="this.media='all'"><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JeRHrjsEuw5VRtDF",ck:"JeRHrjsEuw5VRtDF"});</script><script>(function(){var bp = document.createElement('script');var curProtocol = window.location.protocol.split(':')[0];if (curProtocol === 'https') {bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';}else {bp.src = 'http://push.zhanzhang.baidu.com/push.js';}var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(bp, s);})();</script><script>(function(){var src = "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js";document.write('<script src="' + src + '" id="sozz"><\/script>');})();</script><script>(function(){var el = document.createElement("script");el.src = "https://lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js?01a34d1e0d1a619d5367d4008c189287f6a21298eac8411501047a210261a198fd9a9dcb5ced4d7780eb6f3bbd089073c2a6d54440560d63862bbf4ec01bba3a";el.id = "ttzz";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(el, s);})(window)</script><script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script><script>new LingQue.Monitor().init({id:"Jf8M1BLakmPKjknx",sendSuspicious:true,sendSpaPv:true});</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.min.css"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.css" /><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="星空下的YZY" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><a href="javascript:void(0);" rel="external nofollow noreferrer" onclick="preloader.endLoading();" title="点击跳过动画"><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="iron-container iron-circle"><div class="iron-box1 iron-circle iron-center"></div><div class="iron-box2 iron-circle iron-center"></div><div class="iron-box3 iron-circle iron-center"></div><div class="iron-box4 iron-circle iron-center"></div><div class="iron-box5 iron-circle iron-center"></div><div class="iron-box6 iron-circle"><div class="iron-coil" style="--i: 0"></div><div class="iron-coil" style="--i: 1"></div><div class="iron-coil" style="--i: 2"></div><div class="iron-coil" style="--i: 3"></div><div class="iron-coil" style="--i: 4"></div><div class="iron-coil" style="--i: 5"></div><div class="iron-coil" style="--i: 6"></div><div class="iron-coil" style="--i: 7"></div></div></div></div></a><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/medias/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">34</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">45</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/index.html"><i class="fa-fw iconfont icon-shouye"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-zhishiwenku"></i><span> 文库</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/index.html"><i class="fa-fw iconfont icon-guidang"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/index.html"><i class="fa-fw iconfont icon-biaoqian"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/index.html"><i class="fa-fw iconfont icon-wenjianleixing-biaozhuntu-wenjianjia"></i><span> 分类</span></a></li><li><a class="site-page child" href="/charts/index.html"><i class="fa-fw iconfont icon-tongji"></i><span> 文库统计</span></a></li><li><a class="site-page child" href="/random/index.html"><i class="fa-fw iconfont icon-suiji"></i><span> 随机文章</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-zhubao-youlian"></i><span> 友链|朋友圈</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/index.html"><i class="fa-fw iconfont icon-zhubao-youlian"></i><span> 友链</span></a></li><li><a class="site-page child" href="/fcircle/index.html"><i class="fa-fw iconfont icon-pengyouquan"></i><span> 友链朋友圈</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://travellings.link"><i class="fa-fw iconfont icon-huochepiaomianxing"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://foreverblog.cn/go.html"><i class="fa-fw iconfont icon-Shape"></i><span> 虫洞</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-shuoshuo"></i><span> 留言|说说</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/message/index.html"><i class="fa-fw iconfont icon-liuyanban"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/artitalk/index.html"><i class="fa-fw iconfont icon-shuoshuo1"></i><span> 我的说说</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-shiyanshi"></i><span> 实验室</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Mysearch/index.html"><i class="fa-fw iconfont icon-sousuo"></i><span> 导航主页</span></a></li><li><a class="site-page child" href="/my2048game/index.html"><i class="fa-fw iconfont icon-youxiyouxiji"></i><span> 2048游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-jingxiangcangku"></i><span> 镜像</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://www.226yzy.com/index.html"><i class="fa-fw iconfont icon-benbu"></i><span> 主站</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://yzy226.gitee.io/index.html"><i class="fa-fw iconfont icon-gitee"></i><span> Gitee版</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://226yzy.github.io/index.html"><i class="fa-fw iconfont icon-github"></i><span> GitHub版</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://serverless-page-bucket-i7j6244b-1306365640.cos-website.ap-hongkong.myqcloud.com/index.html"><i class="fa-fw iconfont icon--coding"></i><span> Coding版</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/226yzy/index.html"><i class="fa-fw iconfont icon-cnblogs"></i><span> 博客园</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/qq_52350480?spm=1010.2135.3001.5343"><i class="fa-fw iconfont icon-csdn"></i><span> CSDN</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zhihu.com/people/shi-kong-de-wei-lai"><i class="fa-fw iconfont icon-zhihu"></i><span> 知乎</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.jianshu.com/u/4ef57f21848c"><i class="fa-fw iconfont icon-yanzheng-jianshu"></i><span> 简书</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://space.bilibili.com/153419558?spm_id_from=333.976.0.0"><i class="fa-fw iconfont icon-bilibili"></i><span> B站</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-gengduo1"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/index.html"><i class="fa-fw iconfont icon-guanyu"></i><span> 关于</span></a></li><li><a class="site-page child" href="/reward/index.html"><i class="fa-fw iconfont icon-dashang"></i><span> 打赏本站</span></a></li><li><a class="site-page child" href="/census/index.html"><i class="fa-fw iconfont icon-tongji"></i><span> 本站统计</span></a></li><li><a class="site-page child" href="/gallery/index.html"><i class="fa-fw iconfont icon-tuku"></i><span> 图库</span></a></li><li><a class="site-page child" href="/WebStackPage/index.html"><i class="fa-fw iconfont icon-gongjuxiang"></i><span> 工具箱</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://stats.uptimerobot.com/0mgg3tko3M"><i class="fa-fw iconfont icon-jiankong"></i><span> 本站监控</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.imgtg.com/2022/02/15/TXCIc.md.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">星空下的YZY</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/index.html"><i class="fa-fw iconfont icon-shouye"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-zhishiwenku"></i><span> 文库</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/index.html"><i class="fa-fw iconfont icon-guidang"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/index.html"><i class="fa-fw iconfont icon-biaoqian"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/index.html"><i class="fa-fw iconfont icon-wenjianleixing-biaozhuntu-wenjianjia"></i><span> 分类</span></a></li><li><a class="site-page child" href="/charts/index.html"><i class="fa-fw iconfont icon-tongji"></i><span> 文库统计</span></a></li><li><a class="site-page child" href="/random/index.html"><i class="fa-fw iconfont icon-suiji"></i><span> 随机文章</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-zhubao-youlian"></i><span> 友链|朋友圈</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/index.html"><i class="fa-fw iconfont icon-zhubao-youlian"></i><span> 友链</span></a></li><li><a class="site-page child" href="/fcircle/index.html"><i class="fa-fw iconfont icon-pengyouquan"></i><span> 友链朋友圈</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://travellings.link"><i class="fa-fw iconfont icon-huochepiaomianxing"></i><span> 开往</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://foreverblog.cn/go.html"><i class="fa-fw iconfont icon-Shape"></i><span> 虫洞</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-shuoshuo"></i><span> 留言|说说</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/message/index.html"><i class="fa-fw iconfont icon-liuyanban"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/artitalk/index.html"><i class="fa-fw iconfont icon-shuoshuo1"></i><span> 我的说说</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-shiyanshi"></i><span> 实验室</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Mysearch/index.html"><i class="fa-fw iconfont icon-sousuo"></i><span> 导航主页</span></a></li><li><a class="site-page child" href="/my2048game/index.html"><i class="fa-fw iconfont icon-youxiyouxiji"></i><span> 2048游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-jingxiangcangku"></i><span> 镜像</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://www.226yzy.com/index.html"><i class="fa-fw iconfont icon-benbu"></i><span> 主站</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://yzy226.gitee.io/index.html"><i class="fa-fw iconfont icon-gitee"></i><span> Gitee版</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://226yzy.github.io/index.html"><i class="fa-fw iconfont icon-github"></i><span> GitHub版</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://serverless-page-bucket-i7j6244b-1306365640.cos-website.ap-hongkong.myqcloud.com/index.html"><i class="fa-fw iconfont icon--coding"></i><span> Coding版</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/226yzy/index.html"><i class="fa-fw iconfont icon-cnblogs"></i><span> 博客园</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/qq_52350480?spm=1010.2135.3001.5343"><i class="fa-fw iconfont icon-csdn"></i><span> CSDN</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.zhihu.com/people/shi-kong-de-wei-lai"><i class="fa-fw iconfont icon-zhihu"></i><span> 知乎</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.jianshu.com/u/4ef57f21848c"><i class="fa-fw iconfont icon-yanzheng-jianshu"></i><span> 简书</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://space.bilibili.com/153419558?spm_id_from=333.976.0.0"><i class="fa-fw iconfont icon-bilibili"></i><span> B站</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-gengduo1"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/index.html"><i class="fa-fw iconfont icon-guanyu"></i><span> 关于</span></a></li><li><a class="site-page child" href="/reward/index.html"><i class="fa-fw iconfont icon-dashang"></i><span> 打赏本站</span></a></li><li><a class="site-page child" href="/census/index.html"><i class="fa-fw iconfont icon-tongji"></i><span> 本站统计</span></a></li><li><a class="site-page child" href="/gallery/index.html"><i class="fa-fw iconfont icon-tuku"></i><span> 图库</span></a></li><li><a class="site-page child" href="/WebStackPage/index.html"><i class="fa-fw iconfont icon-gongjuxiang"></i><span> 工具箱</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://stats.uptimerobot.com/0mgg3tko3M"><i class="fa-fw iconfont icon-jiankong"></i><span> 本站监控</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【学习记录】CSS动画</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-05-14T10:57:32.000Z" title="发表于 2022-05-14 18:57:32">2022-05-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-05-14T11:13:31.989Z" title="更新于 2022-05-14 19:13:31">2022-05-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/">学习记录</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>8分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="【学习记录】CSS动画"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p>之前学这部分的时候只粗略地看了一点，实事证明我现在已经完全没了印象🤣实在惭愧，所以还是自己重新学一遍，毕竟动画效果还是挺吸引人的。</p>
+<p>当然，很多效果网上能找到现成的，比如我在这期间找到的<a target="_blank" rel="noopener external nofollow noreferrer" href="https://angrytools.com/css/animation/">CSS Animation Kit (angrytools.com)</a></p>
+<p>另外，为了更好地展现效果，我第一次正式在Markdown中使用了<code>iframe</code></p>
+<p>鉴于我这菜鸟的水平，本文不可避免的可能会有些错误，如有发现欢迎大佬指出🤣</p>
+<p>我自己在学习的途中，觉得这一篇不错<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/coco1s/p/15796478.html">深入浅出 CSS 动画 - ChokCoco - 博客园 (cnblogs.com)</a>里面有许多干货</p>
+<blockquote>
+<p>【转载说明】本文优先发布于我的个人博客<a href="https://www.226yzy.com">www.226yzy.com</a> ，转载请注明出处并注明作者：星空下的YZY。</p>
+<p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>许可协议。</p>
+</blockquote>
+<h1 id="尝试"><a href="#尝试" class="headerlink" title="尝试"></a>尝试</h1><p>首先我们Hello World的仪式不少😆🚀🚀🚀</p>
+<iframe srcdoc="<div>Hello World</div>
+                <style>
+                div {
+                    animation: change 2s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes change {
+                    0% {
+                        color: #10a4ed;
+                        }
+                    100% {
+                        color: #000;
+                    }
+                }
+                </style>" marginheight="10" marginwidth="10">
+</iframe>
+
+
+
+<p>代码如下</p>
+<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css"><span class="selector-tag">div</span> {</span></span><br><span class="line"><span class="css">	<span class="attribute">animation</span>: change <span class="number">3s</span>;</span></span><br><span class="line"><span class="css">	<span class="attribute">animation-iteration-count</span>: infinite;</span></span><br><span class="line"><span class="css">}</span></span><br><span class="line"><span class="css"><span class="keyword">@keyframes</span> change {</span></span><br><span class="line"><span class="css">	<span class="number">0%</span> {</span></span><br><span class="line"><span class="css">		<span class="attribute">color</span>: <span class="number">#10a4ed</span>;</span></span><br><span class="line"><span class="css">	}</span></span><br><span class="line"><span class="css">	<span class="number">100%</span> {</span></span><br><span class="line"><span class="css">		<span class="attribute">color</span>: <span class="number">#000</span>;</span></span><br><span class="line"><span class="css">	}</span></span><br><span class="line"><span class="css">}</span></span><br><span class="line"><span class="css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<h1 id="CSS3的动画属性"><a href="#CSS3的动画属性" class="headerlink" title="CSS3的动画属性"></a>CSS3的动画属性</h1><p>animation（动画）、transition（过渡）是css3中的两种动画属性。</p>
+<blockquote>
+<p>animation强调流程与控制，对元素的一个或多个属性的变化进行控制，可以有多个关键帧（animation 和@ keyframes结合使用）；</p>
+<p>transition强调过渡，是元素的一个或多个属性发生变化时产生的过渡效果，同一个元素通过两个不同的途径获取样式，而第二个途径当某种改变发生（例如hover）时才能获取样式，这样就会产生过渡动画。可以认为它有两个关键帧（Transition ＋ Transform ＝ 两个关键帧的Animation）。</p>
+<p>参考自<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/shenfangfang/p/5713564.html">CSS动画 animation与transition - 昵称你好 - 博客园 (cnblogs.com)</a></p>
+</blockquote>
+<p>本篇我记录的是<code>animation</code></p>
+<p>对于animation，<code>@keyframes</code>规则、<code>animation-name</code>和<code>animation-duration</code> 是必须的</p>
+<p>在上文的示例中</p>
+<p><code>animation-name</code>是<code>change</code>即动画的名称</p>
+<p><code>animation-duration</code>设的是<code>3s</code>即动画完成一个周期所花费的秒或毫秒</p>
+<p>实现的效果是初始为蓝色，然后逐渐变为黑色</p>
+<p><code>animation-iteration-count: infinite;</code>是为了一直重复执行上面的效果</p>
+<blockquote>
+<p>该部分摘录自<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/css3/css3-animations.html">CSS3 动画 | 菜鸟教程 (runoob.com)</a></p>
+</blockquote>
+<p>下面的表格列出了 <code>@keyframes</code> 规则和所有动画属性：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">@keyframes</td>
+<td style="text-align:left">规定动画,在内部设定动画关键帧</td>
+</tr>
+<tr>
+<td style="text-align:left">animation</td>
+<td style="text-align:left">所有动画属性的简写属性</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-name</td>
+<td style="text-align:left">规定 @keyframes 动画的名称</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-duration</td>
+<td style="text-align:left">规定动画完成一个周期所花费的秒或毫秒。默认是 0</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-timing-function</td>
+<td style="text-align:left">规定动画的速度曲线。默认是 “ease”</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-fill-mode</td>
+<td style="text-align:left">规定当动画不播放时（当动画完成时，或当动画有一个延迟未开始播放时），要应用到元素的样式</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-delay</td>
+<td style="text-align:left">规定动画何时开始。默认是 0</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-iteration-count</td>
+<td style="text-align:left">规定动画被播放的次数。默认是 1，无限是infinite</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-direction</td>
+<td style="text-align:left">规定动画是否在下一周期逆向地播放。默认是 “normal”</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-play-state</td>
+<td style="text-align:left">规定动画是否正在运行或暂停。默认是 “running”</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="keyframes-规则"><a href="#keyframes-规则" class="headerlink" title="@keyframes 规则"></a>@keyframes 规则</h2><p><code>@keyframes</code> 规则中指定了 CSS 样式，动画将在特定时间逐渐从当前样式更改为新样式。</p>
+<p>可以进行更细节的处理，具体就像上面是示例那样，你可以设定更多的关键帧和属性。</p>
+<h2 id="animation-timing-function"><a href="#animation-timing-function" class="headerlink" title="animation-timing-function"></a>animation-timing-function</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">值</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">linear</td>
+<td style="text-align:left">动画从头到尾的速度是相同的。</td>
+</tr>
+<tr>
+<td style="text-align:left">ease</td>
+<td style="text-align:left">默认。动画以低速开始，然后加快，在结束前变慢。</td>
+</tr>
+<tr>
+<td style="text-align:left">ease-in</td>
+<td style="text-align:left">动画以低速开始。</td>
+</tr>
+<tr>
+<td style="text-align:left">ease-out</td>
+<td style="text-align:left">动画以低速结束。</td>
+</tr>
+<tr>
+<td style="text-align:left">ease-in-out</td>
+<td style="text-align:left">动画以低速开始和结束。</td>
+</tr>
+<tr>
+<td style="text-align:left">steps(int,start\</td>
+<td style="text-align:left">end)</td>
+<td>指定了时间函数中的间隔数量（步长）。有两个参数，第一个参数指定函数的间隔数，该参数是一个正整数（大于 0）。 第二个参数是可选的，表示动画是从时间段的开头连续还是末尾连续。含义分别如下：start：表示直接开始。end：默认值，表示戛然而止。</td>
+</tr>
+<tr>
+<td style="text-align:left">cubic-bezier(<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>)</td>
+<td style="text-align:left">在 cubic-bezier 函数中自己的值。可能的值是从 0 到 1 的数值。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>看表格不太直观，我就用<code>iframe</code>弄出来吧</p>
+<iframe style="width:400px;height:700px" srcdoc="
+                <div class='demo'>
+                    <p>linear</p>
+                      <div class='balloon linear'>linear</div>
+                    <p>ease</p>
+                      <div class='balloon ease'>ease</div>
+                    <p>ease-in</p>                        
+                      <div class='balloon ease-in'>ease-in</div>
+                    <p>ease-out</p>
+                      <div class='balloon ease-out'>ease-out</div>
+                    <p>ease-in-out</p>
+                      <div class='balloon ease-in-out'>ease-in-out</div>
+                </div>
+                <style>
+.balloon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left:0;
+  text-align: center;
+  font-size: 12px;
+  font-weight:bold;
+  line-height: 80px;
+  border-radius: 80px;
+  color: rgb(247,133,2);
+  background-color: #10a4ed;
+}
+.demo:hover .linear{
+  left: 300px;
+  transition-property: left;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+}
+.demo:hover .ease{
+  left: 300px;
+  transition-property: left;
+  transition-duration: 5s;
+  transition-timing-function: ease;
+}
+.demo:hover .ease-in{
+  left: 300px;
+  transition-property: left;
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+}
+.demo:hover .ease-out{
+  left: 300px;
+  transition-property: left;
+  transition-duration: 5s;
+  transition-timing-function: ease-out;
+}
+.demo:hover .ease-in-out{
+  left: 300px;
+  transition-property: left;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+}
+</style>">
+</iframe>
+
+
+<blockquote>
+<p>这里我写这个演示的代码其实偷懒用transition（过渡）写的</p>
+<p><code>transition</code>有四个过渡属性</p>
+<p><strong>transition-property 、transition-duration 、transition-timing-function 、transition-delay</strong></p>
+</blockquote>
+<p>然后对于<code>cubic-bezier</code>函数，可以通过下面这个工具网站调试</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://cubic-bezier.com/#.25,.1,.25,.95">cubic-bezier.com</a></p>
+<h2 id="animation-direction"><a href="#animation-direction" class="headerlink" title="animation-direction"></a>animation-direction</h2><p>animation-direction  规定动画是否在下一周期逆向地播放。默认是 “normal” </p>
+<blockquote>
+<p>这里用菜鸟教程的表格</p>
+</blockquote>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">值</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">测试</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">normal</td>
+<td style="text-align:left">默认值。动画按正常播放。</td>
+<td style="text-align:left"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/try/playit.php?f=playcss_animation-direction&amp;preval=normal">测试 »</a></td>
+</tr>
+<tr>
+<td style="text-align:left">reverse</td>
+<td style="text-align:left">动画反向播放。</td>
+<td style="text-align:left"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/try/playit.php?f=playcss_animation-direction&amp;preval=reverse">测试 »</a></td>
+</tr>
+<tr>
+<td style="text-align:left">alternate</td>
+<td style="text-align:left">动画在奇数次（1、3、5…）正向播放，在偶数次（2、4、6…）反向播放。</td>
+<td style="text-align:left"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/try/playit.php?f=playcss_animation-direction&amp;preval=alternate">测试 »</a></td>
+</tr>
+<tr>
+<td style="text-align:left">alternate-reverse</td>
+<td style="text-align:left">动画在奇数次（1、3、5…）反向播放，在偶数次（2、4、6…）正向播放。</td>
+<td style="text-align:left"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/try/playit.php?f=playcss_animation-direction&amp;preval=alternate-reverse">测试 »</a></td>
+</tr>
+<tr>
+<td style="text-align:left">initial</td>
+<td style="text-align:left">设置该属性为它的默认值。请参阅 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/cssref/css-initial.html"><em>initial</em></a>。</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">inherit</td>
+<td style="text-align:left">从父元素继承该属性。请参阅 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/cssref/css-inherit.html"><em>inherit</em></a>。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="animation-delay、animation-play-state"><a href="#animation-delay、animation-play-state" class="headerlink" title="animation-delay、animation-play-state"></a>animation-delay、animation-play-state</h2><p>这两个就放在一起记录吧</p>
+<p>animation-delay  规定动画何时开始。默认是 0，当然，也可以是负数或正数</p>
+<p>animation-play-state 规定动画是否正在运行或暂停。默认是 “running”     ，另外一个值是<code>paused</code>指定暂停动画</p>
+<p>对这几个属性，我写了下面这个</p>
+<iframe srcdoc="<div class='hello'>
+                <div id='stop'>STOP</div>
+                <br>
+                <div id='demo'><div>
+                </div>
+        <style>
+                .hello{
+                width:150px;
+                height:110px;
+                }
+                #stop {
+                border-style: solid;
+                border-width:3px;
+                border-color: #000;
+                border-radius:5px;
+                width:40px;
+                height:20px;
+                }
+                #demo{
+                position: relative;
+                width:50px;
+                height:50px;
+                background: #10a4ed;
+                left:0;
+                }
+                .hello:hover #demo{
+                  animation-duration: 1s;
+                  animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-name: change;
+                }
+                #stop:hover ~ #demo{
+                    animation-play-state:paused;
+                }
+                @keyframes change {
+                    100%{transform: translate(200px, 0);}
+                }
+</style>">
+</iframe>
+
+
+<p>这里平移我<code>@keyframes</code> 规则写的是</p>
+<figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@keyframes</span> change {</span><br><span class="line">	<span class="number">100%</span>{<span class="attribute">transform</span>: <span class="built_in">translate</span>(<span class="number">200px</span>, <span class="number">0</span>);}</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="animation-fill-mode"><a href="#animation-fill-mode" class="headerlink" title="animation-fill-mode"></a>animation-fill-mode</h2><p>这个我也还迷迷糊糊😵‍💫，还是下面这位大佬总结的好</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/coco1s/p/15796478.html">深入浅出 CSS 动画 - ChokCoco - 博客园 (cnblogs.com)</a></p>
+<p>或者参考菜鸟教程的</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/cssref/css3-pr-animation-fill-mode.html">animation-fill-mode</a></p>
+<h2 id="其它属性"><a href="#其它属性" class="headerlink" title="其它属性"></a>其它属性</h2><p>还有一些像<code>color</code>这些小属性，就参考菜鸟教程的吧🤣</p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/cssref/css-animatable.html">CSS 动画 | 菜鸟教程 (runoob.com)</a></p>
+<p>不过还是有几个常见或重要的属性</p>
+<h3 id="transform-属性"><a href="#transform-属性" class="headerlink" title="transform 属性"></a>transform 属性</h3><p>Transform属性应用于元素的2D或3D转换。这个属性允许你将元素旋转，缩放，移动，倾斜等。</p>
+<p>你可以通过下面的链接查看<strong>Transform 各种变形旋转</strong></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://c.runoob.com/codedemo/3391/">Css3 Transform 各种变形旋转 | 菜鸟工具 (runoob.com)</a></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">值</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">none</td>
+<td style="text-align:left">定义不进行转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">matrix(<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>)</td>
+<td style="text-align:left">定义 2D 转换，使用六个值的矩阵。</td>
+</tr>
+<tr>
+<td style="text-align:left">matrix3d(<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>,<em>n</em>)</td>
+<td style="text-align:left">定义 3D 转换，使用 16 个值的 4x4 矩阵。</td>
+</tr>
+<tr>
+<td style="text-align:left">translate(<em>x</em>,<em>y</em>)</td>
+<td style="text-align:left">定义 2D 转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">translate3d(<em>x</em>,<em>y</em>,<em>z</em>)</td>
+<td style="text-align:left">定义 3D 转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">translateX(<em>x</em>)</td>
+<td style="text-align:left">定义转换，只是用 X 轴的值。</td>
+</tr>
+<tr>
+<td style="text-align:left">translateY(<em>y</em>)</td>
+<td style="text-align:left">定义转换，只是用 Y 轴的值。</td>
+</tr>
+<tr>
+<td style="text-align:left">translateZ(<em>z</em>)</td>
+<td style="text-align:left">定义 3D 转换，只是用 Z 轴的值。</td>
+</tr>
+<tr>
+<td style="text-align:left">scale(<em>x</em>[,<em>y</em>]?)</td>
+<td style="text-align:left">定义 2D 缩放转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">scale3d(<em>x</em>,<em>y</em>,<em>z</em>)</td>
+<td style="text-align:left">定义 3D 缩放转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">scaleX(<em>x</em>)</td>
+<td style="text-align:left">通过设置 X 轴的值来定义缩放转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">scaleY(<em>y</em>)</td>
+<td style="text-align:left">通过设置 Y 轴的值来定义缩放转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">scaleZ(<em>z</em>)</td>
+<td style="text-align:left">通过设置 Z 轴的值来定义 3D 缩放转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">rotate(<em>angle</em>)</td>
+<td style="text-align:left">定义 2D 旋转，在参数中规定角度。</td>
+</tr>
+<tr>
+<td style="text-align:left">rotate3d(<em>x</em>,<em>y</em>,<em>z</em>,<em>angle</em>)</td>
+<td style="text-align:left">定义 3D 旋转。</td>
+</tr>
+<tr>
+<td style="text-align:left">rotateX(<em>angle</em>)</td>
+<td style="text-align:left">定义沿着 X 轴的 3D 旋转。</td>
+</tr>
+<tr>
+<td style="text-align:left">rotateY(<em>angle</em>)</td>
+<td style="text-align:left">定义沿着 Y 轴的 3D 旋转。</td>
+</tr>
+<tr>
+<td style="text-align:left">rotateZ(<em>angle</em>)</td>
+<td style="text-align:left">定义沿着 Z 轴的 3D 旋转。</td>
+</tr>
+<tr>
+<td style="text-align:left">skew(<em>x-angle</em>,<em>y-angle</em>)</td>
+<td style="text-align:left">定义沿着 X 和 Y 轴的 2D 倾斜转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">skewX(<em>angle</em>)</td>
+<td style="text-align:left">定义沿着 X 轴的 2D 倾斜转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">skewY(<em>angle</em>)</td>
+<td style="text-align:left">定义沿着 Y 轴的 2D 倾斜转换。</td>
+</tr>
+<tr>
+<td style="text-align:left">perspective(<em>n</em>)</td>
+<td style="text-align:left">为 3D 转换元素定义透视视图。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="私有前缀"><a href="#私有前缀" class="headerlink" title="私有前缀"></a>私有前缀</h1><p>有时候，会看见一些属性加上了前缀，比如<code>@-webkit-keyframes</code>加上了<code>-webkit</code>的前缀</p>
+<blockquote>
+<p>该部分参考了<a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/wyx100/article/details/50450728?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-50450728-blog-80794371.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-50450728-blog-80794371.pc_relevant_default&amp;utm_relevant_index=1">-moz、-ms、-webkit浏览器私有前缀详解，作用、出处<em>wyx100的博客-CSDN博客</em>私有前缀</a></p>
+</blockquote>
+<p><strong>作用：</strong>为了兼容老版本的写法。对于一般比较新版本的浏览器可以不加</p>
+<p><strong>常见前缀：</strong></p>
+<p>-moz代表firefox浏览器私有属性</p>
+<p>-ms代表ie浏览器私有属性</p>
+<p>-webkit代表safari、chrome私有属性</p>
+<p>-o代表Opera私有属性</p>
+<blockquote>
+<p>因为制定HTML和CSS标准的组织W3C动作是很慢的。<br>通常，有w3c组织成员提出一个新属性，比如说圆角border-radius，大家都觉得好，但w3c制定标准，要走很复杂的程序，审查等。而浏览器商市场推广时间紧，如果一个属性已经够成熟了，就会在浏览器中加入支持。<br>为避免日后w3c公布标准时有所变更，加入一个私有前缀，比如-webkit-border-radius，通过这种方式来提前支持新属性。<br>等到日后w3c公布了标准，border-radius的标准写法确立之后，再让新版的浏览器支持border-radius这种写法。<br>————————————————<br>版权声明：本文为CSDN博主「wyx100」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/wyx100/article/details/50450728">https://blog.csdn.net/wyx100/article/details/50450728</a></p>
+</blockquote>
+<h1 id="在线工具"><a href="#在线工具" class="headerlink" title="在线工具"></a>在线工具</h1><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://angrytools.com/css/animation/">CSS 动画套件 (angrytools.com)</a></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://cubic-bezier.com/#.25,.1,.25,.95">cubic-bezier(.25,.1,.25,.95) ✿ cubic-bezier.com</a></p>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.runoob.com/css3/css3-animations.html">CSS3 动画 | 菜鸟教程 (runoob.com)</a></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/coco1s/p/15796478.html">深入浅出 CSS 动画 - ChokCoco - 博客园 (cnblogs.com)</a></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/wyx100/article/details/50450728?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-50450728-blog-80794371.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-50450728-blog-80794371.pc_relevant_default&amp;utm_relevant_index=1">-moz、-ms、-webkit浏览器私有前缀详解，作用、出处<em>wyx100的博客-CSDN博客</em>私有前缀</a></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://segmentfault.com/q/1010000003867335">如何理解animation-fill-mode及其使用？ - SegmentFault 思否</a></p>
+<p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/shenfangfang/p/5713564.html">CSS动画 animation与transition - 昵称你好 - 博客园 (cnblogs.com)</a></p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>暂时就写到这了，如有错误，欢迎大佬留言指出😆</p>
+<p>欢迎访问我的小破站<a href="https://www.226yzy.com/">https://www.226yzy.com/</a> 或者GitHub版镜像 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://226yzy.github.io/">https://226yzy.github.io/</a> 或Gitee版镜像<a target="_blank" rel="noopener external nofollow noreferrer" href="https://yzy226.gitee.io/">https://yzy226.gitee.io/</a></p>
+<p>我的Github：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/226YZY">226YZY (星空下的YZY) (github.com)</a></p>
+<blockquote>
+<p>【转载说明】本文优先发布于我的个人博客<a href="https://www.226yzy.com">www.226yzy.com</a> ，转载请注明出处并注明作者：星空下的YZY。</p>
+<p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>许可协议。</p>
+</blockquote>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noreferrer">星空下的YZY</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.226yzy.com/2022/051429756.html">https://www.226yzy.com/2022/051429756.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.226yzy.com" target="_blank">星空下的YZY</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/CSS%E5%8A%A8%E7%94%BB/">CSS动画</a></div><div class="post_share"><div class="social-share" data-image="https://i.imgtg.com/2022/02/15/TXCIc.md.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://npm.elemecdn.com/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://npm.elemecdn.com/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/medias/reward/wechat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/medias/reward/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/medias/reward/alipay.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/medias/reward/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/042448136.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TuOtM.md.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【随笔】将备案接入服务商转为腾讯云</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/medias/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">星空下的YZY</div><div class="author-info__description">记录一枚菜鸟的征程</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">34</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">45</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/226YZY"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:2119388133@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="iconfont icon-youxiang"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="iconfont icon-RSS"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2119388133&amp;site=qq&amp;menu=yes" rel="external nofollow noreferrer" target="_blank" title="QQ"><i class="iconfont icon-qq"></i></a><a class="social-icon" href="https://blog.csdn.net/qq_52350480?spm=1019.2139.3001.5343" rel="external nofollow noreferrer" target="_blank" title="CSDN"><i class="iconfont icon-csdn"></i></a><a class="social-icon" href="https://space.bilibili.com/153419558" rel="external nofollow noreferrer" target="_blank" title="B站"><i class="iconfont icon-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-beat"></i><span>公告</span></div><div class="announcement_content"><p style="color:rgba(73,177,245)!important; ">欢迎光临我的小破站😝</p></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80%EF%BC%9A"><span class="toc-text">前言：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%9D%E8%AF%95"><span class="toc-text">尝试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CSS3%E7%9A%84%E5%8A%A8%E7%94%BB%E5%B1%9E%E6%80%A7"><span class="toc-text">CSS3的动画属性</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#keyframes-%E8%A7%84%E5%88%99"><span class="toc-text">@keyframes 规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#animation-timing-function"><span class="toc-text">animation-timing-function</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#animation-direction"><span class="toc-text">animation-direction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#animation-delay%E3%80%81animation-play-state"><span class="toc-text">animation-delay、animation-play-state</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#animation-fill-mode"><span class="toc-text">animation-fill-mode</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E5%AE%83%E5%B1%9E%E6%80%A7"><span class="toc-text">其它属性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#transform-%E5%B1%9E%E6%80%A7"><span class="toc-text">transform 属性</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A7%81%E6%9C%89%E5%89%8D%E7%BC%80"><span class="toc-text">私有前缀</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7"><span class="toc-text">在线工具</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="toc-text">参考文献</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%80%E5%90%8E"><span class="toc-text">最后</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/051429756.html" title="【学习记录】CSS动画"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TXCIc.md.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【学习记录】CSS动画"/></a><div class="content"><a class="title" href="/2022/051429756.html" title="【学习记录】CSS动画">【学习记录】CSS动画</a><time datetime="2022-05-14T10:57:32.000Z" title="发表于 2022-05-14 18:57:32">2022-05-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/042448136.html" title="【随笔】将备案接入服务商转为腾讯云"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TuOtM.md.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【随笔】将备案接入服务商转为腾讯云"/></a><div class="content"><a class="title" href="/2022/042448136.html" title="【随笔】将备案接入服务商转为腾讯云">【随笔】将备案接入服务商转为腾讯云</a><time datetime="2022-04-24T13:25:24.000Z" title="发表于 2022-04-24 21:25:24">2022-04-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/041946563.html" title="正则表达式"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TXuaY.md.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="正则表达式"/></a><div class="content"><a class="title" href="/2022/041946563.html" title="正则表达式">正则表达式</a><time datetime="2022-04-19T05:57:51.000Z" title="发表于 2022-04-19 13:57:51">2022-04-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/041362119.html" title="【随笔】模拟退火"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TXIev.md.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【随笔】模拟退火"/></a><div class="content"><a class="title" href="/2022/041362119.html" title="【随笔】模拟退火">【随笔】模拟退火</a><time datetime="2022-04-13T10:30:16.000Z" title="发表于 2022-04-13 18:30:16">2022-04-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/032926774.html" title="【随笔】博弈题基础回顾"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TX2Uj.md.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【随笔】博弈题基础回顾"/></a><div class="content"><a class="title" href="/2022/032926774.html" title="【随笔】博弈题基础回顾">【随笔】博弈题基础回顾</a><time datetime="2022-03-29T15:29:10.000Z" title="发表于 2022-03-29 23:29:10">2022-03-29</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By 星空下的YZY</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn"><span>浙ICP备2021019852号-3</span></a><img class="icp-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/medias/备案图标.png"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33032202000202" rel="external nofollow noreferrer"><span>浙公网安备 33032202000202号</span></a> <br><span>本站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" rel="external nofollow noreferrer" target="_blank"><img style="margin-bottom:-5px;height:1.5em;width:3em;" border="0" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/upyun_logo.png"/></a>提供CDN加速/云存储服务</span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="https://npm.elemecdn.com/vue@2.6.11"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://npm.elemecdn.com/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://npm.elemecdn.com/instant.page/instantpage.js" type="module"></script><script src="https://npm.elemecdn.com/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://npm.elemecdn.com/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script async="async">var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())
+setTimeout(function(){preloader.endLoading();}, 3000);</script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.2
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container:not\([display]\)').forEach(node => {
+            const target = node.parentNode
+            if (target.nodeName.toLowerCase() === 'li') {
+              target.parentNode.classList.add('has-jax')
+            } else {
+              target.classList.add('has-jax')
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://npm.elemecdn.com/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://npm.elemecdn.com/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twitoo-alpha.vercel.app/',
+      region: '',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.vemoji)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    twikoo.getCommentsCount({
+      envId: 'https://twitoo-alpha.vercel.app/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      document.getElementById('twikoo-count').innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://cdn.jsdelivr.net/npm/twikoo@1.5.9/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script><script>var gitcalendar = new Vue({
+  el: '#gitcalendar',
+  data: {
+    simplemode: true,
+    user: '226YZY',
+    fixed: 'fixed',
+    px: 'px',
+    x: '',
+    y: '',
+    span1: '',
+    span2: '',
+    month: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+    monthchange: [],
+    oneyearbeforeday: '',
+    thisday: '',
+    amonthago: '',
+    aweekago: '',
+    weekdatacore: 0,
+    datacore: 0,
+    total: 0,
+    datadate: '',
+    data: [],
+    positionplusdata: [],
+    firstweek: [],
+    lastweek: [],
+    beforeweek: [],
+    thisweekdatacore: 0,
+    mounthbeforeday: 0,
+    mounthfirstindex: 0,
+    crispedges: 'crispedges',
+    thisdayindex: 0,
+    amonthagoindex: 0,
+    amonthagoweek: [],
+    firstdate: [],
+    first2date: [],
+    montharrbefore: [],
+    monthindex: 0,
+    color: ['#ebedf0', '#b4d8fc', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']
+  },
+  methods: {
+    selectStyle(data, event) {
+      document.querySelector('.angle-wrapper').style.display = 'block'
+      this.span1 = data.date;
+      this.span2 = data.count;
+      this.x = event.clientX - 100;
+      this.y = event.clientY - 60
+    },
+    outStyle() {
+      document.querySelector('.angle-wrapper').style.display = 'none'
+    },
+    thiscolor(x) {
+      if (x === 0) {
+        let i = parseInt(x / 2);
+        return this.color[0]
+      } else if (x < 2) {
+        return this.color[1]
+      } else if (x < 20) {
+        let i = parseInt(x / 2);
+        return this.color[i]
+      } else {
+        return this.color[9]
+      }
+    },
+  }
+});
+var apiurl = '' ? 'https:///api?' : 'https://githubapi.ryanchristian.dev/user/'
+var githubapiurl = apiurl + gitcalendar.user;
+//canvas绘图
+function responsiveChart() {
+  let c = document.getElementById("gitcanvas");
+  if (c) {
+    let cmessage = document.getElementById("gitmessage");
+    let ctx = c.getContext("2d");
+    c.width = document.getElementById("gitcalendarcanvasbox").offsetWidth;
+    let linemaxwitdh = 0.96 * c.width / gitcalendar.data.length;
+    c.height = 9 * linemaxwitdh;
+    let lineminwitdh = 0.8 * linemaxwitdh;
+    let setposition = {
+      x: 0.02 * c.width,
+      y: 0.025 * c.width
+    };
+    for (let week in gitcalendar.data) {
+      weekdata = gitcalendar.data[week];
+      for (let day in weekdata) {
+        let dataitem = {
+          date: "",
+          count: "",
+          x: 0,
+          y: 0
+        };
+        gitcalendar.positionplusdata.push(dataitem);
+        ctx.fillStyle = gitcalendar.thiscolor(weekdata[day].count);
+        setposition.y = Math.round(setposition.y * 100) / 100;
+        dataitem.date = weekdata[day].date;
+        dataitem.count = weekdata[day].count;
+        dataitem.x = setposition.x;
+        dataitem.y = setposition.y;
+        ctx.fillRect(setposition.x, setposition.y, lineminwitdh, lineminwitdh);
+        setposition.y = setposition.y + linemaxwitdh
+      };
+      setposition.y = 0.025 * c.width;
+      setposition.x = setposition.x + linemaxwitdh
+    };
+    ctx.font = "600  Arial";
+    ctx.fillStyle = '#aaa';
+    ctx.fillText("日", 0, 1.9 * linemaxwitdh);
+    ctx.fillText("一", 0, 2.9 * linemaxwitdh);
+    ctx.fillText("二", 0, 3.9 * linemaxwitdh);
+    ctx.fillText("三", 0, 4.9 * linemaxwitdh);
+    ctx.fillText("四", 0, 5.9 * linemaxwitdh);
+    ctx.fillText("五", 0, 6.9 * linemaxwitdh);
+    ctx.fillText("六", 0, 7.9 * linemaxwitdh);
+    let monthindexlist = c.width / 24;
+    for (let index in gitcalendar.monthchange) {
+      ctx.fillText(gitcalendar.monthchange[index], monthindexlist, 0.7 * linemaxwitdh);
+      monthindexlist = monthindexlist + c.width / 12
+    };
+    cmessage.onmousemove = function(event) {
+      document.querySelector('.angle-wrapper').style.display = 'none'
+    };
+    c.onmousemove = function(event) {
+      document.querySelector('.angle-wrapper').style.display = 'none'
+      getMousePos(c, event);
+    };
+
+    function getMousePos(canvas, event) {
+      var rect = canvas.getBoundingClientRect();
+      var x = event.clientX - rect.left * (canvas.width / rect.width);
+      var y = event.clientY - rect.top * (canvas.height / rect.height);
+      //console.log("x:"+x+",y:"+y);
+      for (let item of gitcalendar.positionplusdata) {
+        let lenthx = x - item.x;
+        let lenthy = y - item.y;
+        //console.log(lenthx,lenthy);
+        if (0 < lenthx && lenthx < lineminwitdh) {
+          if (0 < lenthy && lenthy < lineminwitdh) {
+            //console.log(item.date,item.count)
+            document.querySelector('.angle-wrapper').style.display = 'block'
+            gitcalendar.span1 = item.date;
+            gitcalendar.span2 = item.count;
+            gitcalendar.x = event.clientX - 100;
+            gitcalendar.y = event.clientY - 60
+          }
+        }
+        //if(0< x - item.x <lineminwitdh&&0< y - item.y <lineminwitdh){
+        //console.log(item.count,item.date);
+        //}
+      }
+    }
+  }
+}
+//数据统计算法
+function addlastmonth() {
+  if (gitcalendar.thisdayindex === 0) {
+    thisweekcore(52);
+    thisweekcore(51);
+    thisweekcore(50);
+    thisweekcore(49);
+    thisweekcore(48);
+    gitcalendar.thisweekdatacore += gitcalendar.firstdate[6].count;
+    gitcalendar.amonthago = gitcalendar.firstdate[6].date
+  } else {
+    thisweekcore(52);
+    thisweekcore(51);
+    thisweekcore(50);
+    thisweekcore(49);
+    thisweek2core();
+    gitcalendar.amonthago = gitcalendar.first2date[gitcalendar.thisdayindex - 1].date
+  }
+};
+
+function thisweek2core() {
+  for (let i = gitcalendar.thisdayindex - 1; i < gitcalendar.first2date.length; i++) {
+    gitcalendar.thisweekdatacore += gitcalendar.first2date[i].count
+  }
+};
+
+function thisweekcore(index) {
+  for (let item of gitcalendar.data[index]) {
+    gitcalendar.thisweekdatacore += item.count
+  }
+};
+
+function addlastweek() {
+  for (let item of gitcalendar.lastweek) {
+    gitcalendar.weekdatacore += item.count
+  }
+};
+
+function addbeforeweek() {
+  for (let i = gitcalendar.thisdayindex; i < gitcalendar.beforeweek.length; i++) {
+    gitcalendar.weekdatacore += gitcalendar.beforeweek[i].count
+  }
+};
+
+function addweek(data) {
+  if (gitcalendar.thisdayindex === 6) {
+    gitcalendar.aweekago = gitcalendar.lastweek[0].date;
+    addlastweek()
+  } else {
+    lastweek = data.contributions[51];
+    gitcalendar.aweekago = lastweek[gitcalendar.thisdayindex + 1].date;
+    addlastweek();
+    addbeforeweek()
+  }
+}
+
+fetch(githubapiurl)
+  .then(data => data.json())
+  .then(data => {
+    gitcalendar.data = data.contributions;
+    gitcalendar.total = data.total;
+    gitcalendar.first2date = gitcalendar.data[48];
+    gitcalendar.firstdate = gitcalendar.data[47];
+    gitcalendar.firstweek = data.contributions[0];
+    gitcalendar.lastweek = data.contributions[52];
+    gitcalendar.beforeweek = data.contributions[51];
+    gitcalendar.thisdayindex = gitcalendar.lastweek.length - 1;
+    gitcalendar.thisday = gitcalendar.lastweek[gitcalendar.thisdayindex].date;
+    gitcalendar.oneyearbeforeday = gitcalendar.firstweek[0].date;
+    gitcalendar.monthindex = gitcalendar.thisday.substring(5, 7) * 1;
+    gitcalendar.montharrbefore = gitcalendar.month.splice(gitcalendar.monthindex, 12 - gitcalendar.monthindex);
+    gitcalendar.monthchange = gitcalendar.montharrbefore.concat(gitcalendar.month);
+    addweek(data);
+    addlastmonth();
+    responsiveChart();
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
+//手机版更换为svg绘制
+if (document.getElementById("gitcalendarcanvasbox").offsetWidth < 500) {
+  gitcalendar.simplemode = false
+}
+
+//当改变窗口大小时重新绘制canvas
+window.onresize = function() {
+  if (gitcalendar.simplemode) responsiveChart()
+}
+
+//解决滚动滑轮时出现的标签显示
+window.onscroll = function() {
+  if (document.querySelector('.angle-wrapper')) {
+    document.querySelector('.angle-wrapper').style.display = 'none'
+  }
+};</script></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://twitoo-alpha.vercel.app/',
+        region: '',
+        pageSize: 5,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo@1.5.9/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><canvas id="universe"></canvas><div class="aplayer no-destroy" data-id="8357509656" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="auto" data-autoplay="false" muted></div><!-音乐--><link rel="stylesheet" href="https://npm.elemecdn.com/font-awesome/css/font-awesome.min.css" /><script src="https://npm.elemecdn.com/jquery.min.js"></script><script src="https://live2d.226yzy.com/live2d-widget/autoload.js"></script><script defer src="/js/fishes.js"></script><!-底部鱼--><script async src="//at.alicdn.com/t/font_2264842_3izu8i5eoc2.js"></script><!-归档图标修改--><script async src="//at.alicdn.com/t/font_3356366_p64lud2fgnp.js"><script defer src="../../js/botui.js"></script><script defer src="../../js/universe.js"></script><script defer src="/js/moments.js"></script><script data-pjax defer src="/js/fixed_card_widget.js"></script><script id="canvas_nest" defer="defer" color="0,0,0" opacity="1" zIndex="-1" count="99" mobile="false" src="https://npm.elemecdn.com/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script src="https://npm.elemecdn.com/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://npm.elemecdn.com/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="false" data-text="富强,民主,文明,和谐,自由,平等,公正,法治,爱国,敬业,诚信,友善" data-fontsize="15px" data-random="false" async="async"></script><script src="//code.tidio.co/ybr6h5m8n8m6rukgirvb8q3oyecesud1.js" async="async"></script><script>function onTidioChatApiReady() {
+  window.tidioChatApi.hide();
+  window.tidioChatApi.on("close", function() {
+    window.tidioChatApi.hide();
+  });
+}
+if (window.tidioChatApi) {
+  window.tidioChatApi.on("ready", onTidioChatApiReady);
+} else {
+  document.addEventListener("tidioChat-ready", onTidioChatApiReady);
+}
+
+var chatBtnFn = () => {
+  document.getElementById("chat_btn").addEventListener("click", function(){
+    window.tidioChatApi.show();
+    window.tidioChatApi.open();
+  });
+}
+chatBtnFn()
+</script><link rel="stylesheet" href="https://npm.elemecdn.com/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://npm.elemecdn.com/aplayer/dist/APlayer.min.js"></script><script src="/../../js/Meting.min.js"></script><script src="https://npm.elemecdn.com/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show","#fixedcard-dashboard",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="fixedcard-dashboard"><button class="fixedcard-activebtn" type="button" title="用户信息" onclick="FixedCardWidget(&quot;class&quot;,&quot;card-info&quot;,&quot;0&quot;)"><i class="fas fa-address-book"></i></button><button class="fixedcard-activebtn" type="button" title="电子钟" onclick="FixedCardWidget(&quot;class&quot;,&quot;card-clock&quot;,&quot;0&quot;)"><i class="fas fa-cloud-sun"></i></button><button class="fixedcard-activebtn" type="button" title="最新文章" onclick="FixedCardWidget(&quot;class&quot;,&quot;card-recent-post&quot;,&quot;0&quot;)"><i class="fas fa-history"></i></button><div class="fixedcard-user-avatar fixedcard-activebtn" onclick="RemoveFixedCardWidget()"><img class="fixedcard-user-avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/medias/avatar.jpg" title="星空下的YZY"></div></div></div><!-- hexo injector body_end start --><script>
+    // 全局变量声明区域
+    var fdata = {
+      apiurl: 'https://blog-friends-xi.vercel.app/all',
+      initnumber: 20, //【可选】页面初始化展示文章数量
+      stepnumber: 10, //【可选】每次加载增加的篇数
+      error_img: '/img/404.jpg' //【可选，头像图片加载失败时的默认头像】
+    }
+    //存入本地存储
+    localStorage.setItem("fdatalist",JSON.stringify(fdata))
+    </script>
+    <script defer src="/js/fetch.js"></script><script data-pjax>function history_calendar_injector_config(){
+                var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+                var item_html = '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>';
+                console.log('已挂载history_calendar')
+                // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+            }if( document.getElementsByClassName('sticky_layout')[0] && (location.pathname ==='/'|| '/' ==='all')){
+
+            history_calendar_injector_config()
+        } </script><script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/js/main.min.js"></script><script data-pjax>
+  function butterfly_clock_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://unpkg.zhimg.com/hexo-butterfly-clock/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = '/posts/,/about/'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_injector_config();
+  }
+  </script><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script data-pjax src="https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.js"></script><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('mygitcalendar');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2022/022547844.html" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TX9jx.md.jpg" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-02-25</span><a class="blog-slider__title" href="2022/022547844.html" alt="">【杂记】各类零碎笔记（不定期更新）</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" href="2022/022547844.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/120460550.html" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TuqW1.md.jpg" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-04</span><a class="blog-slider__title" href="2021/120460550.html" alt="">我的简易2048小游戏记录整理</a><div class="blog-slider__text">我的简易2048小游戏记录整理</div><a class="blog-slider__button" href="2021/120460550.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2022/012347381.html" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TXVIi.md.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-01-23</span><a class="blog-slider__title" href="2022/012347381.html" alt="">Hexo中使用ECharts动态图表尝试</a><div class="blog-slider__text">Hexo中使用ECharts动态图表</div><a class="blog-slider__button" href="2022/012347381.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2022/010948485.html" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TX2Uj.md.jpg" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-01-09</span><a class="blog-slider__title" href="2022/010948485.html" alt="">更换Butterfly主题及其美化记录</a><div class="blog-slider__text">这是我更换Butterfly主题记录</div><a class="blog-slider__button" href="2022/010948485.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/121818354.html" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TXlRt.md.png" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-12-18</span><a class="blog-slider__title" href="2021/121818354.html" alt="">Hexo博客部署至服务器</a><div class="blog-slider__text">将Hexo博客部署至服务器</div><a class="blog-slider__button" href="2021/121818354.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/072241576.html" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.imgtg.com/2022/02/15/TX9jx.md.jpg" alt="" onerror="this.src=/img/default.png; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-07-22</span><a class="blog-slider__title" href="2021/072241576.html" alt="">常用网站汇总</a><div class="blog-slider__text">我的个人常用的网站汇总备用</div><a class="blog-slider__button" href="2021/072241576.html" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>

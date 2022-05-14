@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-05-05T14:48:15.993Z</updated>
+  <updated>2022-05-14T11:13:31.989Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【学习记录】CSS动画</title>
+    <link href="https://www.226yzy.com/2022/051429756.html"/>
+    <id>https://www.226yzy.com/2022/051429756.html</id>
+    <published>2022-05-14T10:57:32.000Z</published>
+    <updated>2022-05-14T11:13:31.989Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="CSS动画" scheme="https://www.226yzy.com/tags/CSS%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>【随笔】将备案接入服务商转为腾讯云</title>
@@ -175,7 +200,7 @@
     <link href="https://www.226yzy.com/2022/022547844.html"/>
     <id>https://www.226yzy.com/2022/022547844.html</id>
     <published>2022-02-25T13:23:25.000Z</published>
-    <updated>2022-04-24T13:49:48.048Z</updated>
+    <updated>2022-05-14T03:07:56.250Z</updated>
     
     
       
@@ -494,37 +519,6 @@
     <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
     
     <category term="服务器" scheme="https://www.226yzy.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android 软件UI界面基础</title>
-    <link href="https://www.226yzy.com/2021/12157757.html"/>
-    <id>https://www.226yzy.com/2021/12157757.html</id>
-    <published>2021-12-15T04:05:13.000Z</published>
-    <updated>2022-01-27T06:59:37.351Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="Android" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Android/"/>
-    
-    
-    <category term="Android" scheme="https://www.226yzy.com/tags/Android/"/>
-    
-    <category term="基础" scheme="https://www.226yzy.com/tags/%E5%9F%BA%E7%A1%80/"/>
-    
-    <category term="学习笔记" scheme="https://www.226yzy.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
