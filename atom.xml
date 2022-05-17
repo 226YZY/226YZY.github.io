@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-05-14T11:13:31.989Z</updated>
+  <updated>2022-05-17T13:59:23.362Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【个人记录参考】Vue3搭建项目</title>
+    <link href="https://www.226yzy.com/2022/051740395.html"/>
+    <id>https://www.226yzy.com/2022/051740395.html</id>
+    <published>2022-05-17T13:55:08.000Z</published>
+    <updated>2022-05-17T13:59:23.362Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
+    
+  </entry>
   
   <entry>
     <title>【学习记录】CSS动画</title>
@@ -450,11 +475,11 @@
   </entry>
   
   <entry>
-    <title>Vue工程项目构建</title>
+    <title>Vue2构建项目</title>
     <link href="https://www.226yzy.com/2021/122227789.html"/>
     <id>https://www.226yzy.com/2021/122227789.html</id>
     <published>2021-12-21T16:23:17.000Z</published>
-    <updated>2022-05-16T01:55:47.017Z</updated>
+    <updated>2022-05-17T11:37:29.623Z</updated>
     
     
       
@@ -498,27 +523,6 @@
     
     
     <category term="GitHub" scheme="https://www.226yzy.com/tags/GitHub/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客部署至服务器</title>
-    <link href="https://www.226yzy.com/2021/121818354.html"/>
-    <id>https://www.226yzy.com/2021/121818354.html</id>
-    <published>2021-12-18T06:05:24.000Z</published>
-    <updated>2022-03-04T01:16:45.284Z</updated>
-    
-    
-    <summary type="html">将Hexo博客部署至服务器</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://www.226yzy.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="hexo" scheme="https://www.226yzy.com/tags/hexo/"/>
-    
-    <category term="服务器" scheme="https://www.226yzy.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
