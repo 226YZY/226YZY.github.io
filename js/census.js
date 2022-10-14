@@ -1,10 +1,10 @@
-//https://baidu-tongji-api-sigma.vercel.app/api?access_token=121.2cd650462e0eab5f81438cc8a69ff0b4.YG5bpDwMakUmioVVTsxKNq1Tj1it9Gy-Qj7z8en.cNunNA&site_id=16940767&start_date=20210705&end_date=20220127&metrics=pv_count&method=visit/district/a
+//https://baidutongji.226yzy.com/api?access_token=121.b82fa2551e8b943b1d8e2c093cf152ff.YQ5dF2BqeKxZRGCb2wPqyooF8q9ZBRz43_v1qzn.YRPvnA&site_id=16940767&start_date=20210705&end_date=20220127&metrics=pv_count&method=visit/district/a
 var start_date = '20210705' // 开始日期
 var date = new Date() //;
 var end_date ='' + date.getFullYear() + (date.getMonth() > 8 ? (date.getMonth() + 1) : ("0" + (date.getMonth() + 1))) + (date.getDate() > 9 ? date.getDate() : ("0" + date.getDate())); // 结束日期
 var access_token = '121.b82fa2551e8b943b1d8e2c093cf152ff.YQ5dF2BqeKxZRGCb2wPqyooF8q9ZBRz43_v1qzn.YRPvnA' // accessToken
 var site_id = '16940767' // 网址id
-var dataUrl = 'https://baidu-tongji-api-sigma.vercel.app/api?access_token=' + access_token + '&site_id=' + site_id
+var dataUrl = 'https://baidutongji.226yzy.com/api?access_token=' + access_token + '&site_id=' + site_id
 var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
 var metricsName = (metrics === 'pv_count' ? '访问次数' : (metrics === 'visitor_count' ? '访客数' : ''))
 // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义
