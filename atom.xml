@@ -6,7 +6,7 @@
   <link href="https://www.226yzy.com/atom.xml" rel="self"/>
   
   <link href="https://www.226yzy.com/"/>
-  <updated>2022-07-01T16:08:32.854Z</updated>
+  <updated>2022-10-26T08:35:58.168Z</updated>
   <id>https://www.226yzy.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【学习记录】微信小程序tabBar与自定义navigationBar踩坑记录</title>
+    <link href="https://www.226yzy.com/2022/102619421.html"/>
+    <id>https://www.226yzy.com/2022/102619421.html</id>
+    <published>2022-10-26T08:25:28.000Z</published>
+    <updated>2022-10-26T08:35:58.168Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://npm.elemecdn.com/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="微信小程序" scheme="https://www.226yzy.com/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>这小小破站（摸鱼）一周年啦</title>
@@ -496,33 +521,6 @@
     
     
     <category term="字体精简" scheme="https://www.226yzy.com/tags/%E5%AD%97%E4%BD%93%E7%B2%BE%E7%AE%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue2构建项目</title>
-    <link href="https://www.226yzy.com/2021/122227789.html"/>
-    <id>https://www.226yzy.com/2021/122227789.html</id>
-    <published>2021-12-21T16:23:17.000Z</published>
-    <updated>2022-05-17T11:37:29.623Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://npm.elemecdn.com/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    <category term="学习记录" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="Vue" scheme="https://www.226yzy.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Vue/"/>
-    
-    
-    <category term="Vue" scheme="https://www.226yzy.com/tags/Vue/"/>
     
   </entry>
   
