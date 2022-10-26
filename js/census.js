@@ -1,8 +1,8 @@
-//https://baidutongji.226yzy.com/api?access_token=121.b82fa2551e8b943b1d8e2c093cf152ff.YQ5dF2BqeKxZRGCb2wPqyooF8q9ZBRz43_v1qzn.YRPvnA&site_id=16940767&start_date=20210705&end_date=20220127&metrics=pv_count&method=visit/district/a
+//https://baidutongji.226yzy.com/api?access_token=121.ef8297f7a9e5de1abd7e1b79037f406a.YadCvp8Y3g_TyWr0nooh9x4IeEolrMlCLGC_nwe.vh0Yuw&site_id=16940767&start_date=20210705&end_date=20220127&metrics=pv_count&method=visit/district/a
 var start_date = '20210705' // 开始日期
 var date = new Date() //;
 var end_date ='' + date.getFullYear() + (date.getMonth() > 8 ? (date.getMonth() + 1) : ("0" + (date.getMonth() + 1))) + (date.getDate() > 9 ? date.getDate() : ("0" + date.getDate())); // 结束日期
-var access_token = '121.b82fa2551e8b943b1d8e2c093cf152ff.YQ5dF2BqeKxZRGCb2wPqyooF8q9ZBRz43_v1qzn.YRPvnA' // accessToken
+var access_token = '121.ef8297f7a9e5de1abd7e1b79037f406a.YadCvp8Y3g_TyWr0nooh9x4IeEolrMlCLGC_nwe.vh0Yuw' // accessToken
 var site_id = '16940767' // 网址id
 var dataUrl = 'https://baidutongji.226yzy.com/api?access_token=' + access_token + '&site_id=' + site_id
 var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
