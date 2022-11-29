@@ -127,3 +127,29 @@ td {
 .aplayer-lrc-hide {
     display: block !important;
 }
+
+body,
+html {
+  cursor: url('../coursor/guangbiao.ico'), auto !important;
+}
+
+img {
+  cursor: url('../coursor/Comix_White_Link.cur'), auto !important;
+}
+
+/* 选择链接标签时的鼠标指针 */
+a:hover {
+  cursor: url('../coursor/Comix_White_Link.cur'), auto;
+}
+
+/* 选中输入框时的鼠标指针 */
+/* input:hover {
+  cursor: url('../coursor/Comix_White_Text.cur'), auto;
+} */
+button:hover {
+  cursor: url('../coursor/Comix_White_Link.cur'), auto;
+}
+
+i:hover {
+  cursor: url('../coursor/Comix_White_Link.cur'), auto;
+}
