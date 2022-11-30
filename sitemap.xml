@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.226yzy.com/message/index.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/reward/index.html</loc>
     
     <lastmod>2022-11-30</lastmod>
@@ -17,97 +10,6 @@
   
   <url>
     <loc>https://www.226yzy.com/tags/index.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/12157757.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2022/010757003.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2022/012347381.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/121818354.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2022/013056898.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/083053025.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/121130800.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/120860549.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/122227789.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/120927345.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/061916107.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2022/032130325.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/112156639.html</loc>
     
     <lastmod>2022-11-30</lastmod>
     
@@ -212,20 +114,6 @@
   </url>
   
   <url>
-    <loc>https://www.226yzy.com/2021/071326519.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2021/083041604.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.226yzy.com/2022/051429756.html</loc>
     
     <lastmod>2022-11-30</lastmod>
@@ -262,13 +150,6 @@
   
   <url>
     <loc>https://www.226yzy.com/2022/010948485.html</loc>
-    
-    <lastmod>2022-11-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.226yzy.com/2022/011424656.html</loc>
     
     <lastmod>2022-11-30</lastmod>
     
@@ -345,7 +226,126 @@
   </url>
   
   <url>
+    <loc>https://www.226yzy.com/message/index.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.226yzy.com/2021/071133926.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/12157757.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2022/010757003.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2022/012347381.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/121818354.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2022/013056898.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/083053025.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/121130800.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/120860549.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/122227789.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/120927345.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/061916107.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2022/032130325.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/112156639.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/071326519.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2021/083041604.html</loc>
+    
+    <lastmod>2022-11-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.226yzy.com/2022/011424656.html</loc>
     
     <lastmod>2022-11-30</lastmod>
     
