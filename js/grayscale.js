@@ -3,7 +3,7 @@ if (mourning()) {
 }
 
 function mourning() {
-    var Days = new Array("0512", "1213");
+    var Days = new Array("0512", "1206", "1213");
     var currentdate = new Date();
     var str = "";
     var mm = currentdate.getMonth() + 1;
