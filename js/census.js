@@ -2,7 +2,7 @@
 var start_date = '20210705' // 开始日期
 var date = new Date() //;
 var end_date ='' + date.getFullYear() + (date.getMonth() > 8 ? (date.getMonth() + 1) : ("0" + (date.getMonth() + 1))) + (date.getDate() > 9 ? date.getDate() : ("0" + date.getDate())); // 结束日期
-var access_token = '121.17ec85c9fabbefcf530d9af51489f726.YDYjfhbuOwuI6jmUTnjhLZtfhKVCTyXVdBMiZmw.t4ll7A' // accessToken
+var access_token = '121.181c2b8b512e95f9583e3f6210a6c480.Y5DQ41gfE-T9m5hfOi4m23U6THuCblF16zm8jeY.Abw23g' // accessToken
 var site_id = '16940767' // 网址id
 var dataUrl = 'https://baidutongji.226yzy.com/api?access_token=' + access_token + '&site_id=' + site_id
 var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
